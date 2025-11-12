@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.createjs.com/1.0.0/preloadjs.min.js?_v=20230909135036"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js?_v=20230909135036"></script>
+  <script src="https://unpkg.com/@swup/preload-plugin@3?_v=20230909135036"></script>
+  <script src="https://unpkg.com/@swup/fade-theme@2?_v=20230909135036"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js?_v=20230909135036"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500&family=Inter:wght@100;200;300;600;700&family=Italiana&family=Open+Sans:wght@300;400;500;600;700&display=swap&_v=20230909135036"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.css?_v=20230909135036">
+
+  <link rel="stylesheet" href="css/style.css"></link>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css?_v=20230909135036" rel="stylesheet"integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="files/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="files/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="files/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="files/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="files/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="files/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="files/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="files/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="files/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="files/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="files/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon/favicon-16x16.png">
+    <link rel="manifest" href="files/favicon/manifest.json">
+    <meta name="msapplication-TileImage" content="files/favicon/ms-icon-144x144.png">
+    <title>Alex Portfolio</title>
+</head>
+<header>
+	<nav class="Main_navbar">
+		<li><a id="bt_work" data-swup-preload href="index.html">Work</a></li>
+		<li><a href="index2.html">About</a></li>
+		<div class="select_nav"></div>
+	</nav>
+<div id="preloader">
+	<div class="progress-bar_box">
+		<div class="progresss-bar-main">
+			<div class="progresss"></div>
+		</div>
+	</div>
+	<div class="backgraund_bar_box"></div>
+</div>
+<div class="rotate_box">
+	<div>
+		<div class="rotate">
+	<svg width="40%" height="40%" viewBox="0 0 4521 4468" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M607.76 2340C607.76 2308.8 633.056 2283.5 664.26 2283.5C695.464 2283.5 720.76 2308.8 720.76 2340L607.76 2340ZM664.26 2537.44L607.76 2537.44L664.26 2537.44ZM1834.26 3707.44L1834.26 3763.94L1834.26 3763.94L1834.26 3707.44ZM2228.67 3707.44L1663.67 4033.65L1663.67 3381.24L2228.67 3707.44ZM720.76 2340L720.76 2537.44L607.76 2537.44L607.76 2340L720.76 2340ZM720.76 2537.44C720.76 3152.41 1219.29 3650.94 1834.26 3650.94L1834.26 3763.94C1156.88 3763.94 607.76 3214.82 607.76 2537.44L720.76 2537.44Z"
+			fill="white" />
+		<path
+			d="M3912.59 2127.39C3912.59 2158.59 3887.29 2183.89 3856.09 2183.89C3824.88 2183.89 3799.59 2158.59 3799.59 2127.39L3912.59 2127.39ZM3856.09 1929.94L3912.59 1929.94L3856.09 1929.94ZM2686.09 759.94L2686.09 703.44L2686.09 703.44L2686.09 759.94ZM2291.68 759.94L2856.68 433.737L2856.68 1086.14L2291.68 759.94ZM3799.59 2127.39L3799.59 1929.94L3912.59 1929.94L3912.59 2127.39L3799.59 2127.39ZM3799.59 1929.94C3799.59 1314.97 3301.06 816.44 2686.09 816.44L2686.09 703.44C3363.47 703.44 3912.59 1252.56 3912.59 1929.94L3799.59 1929.94Z"
+			fill="white" />
+		<path fill-rule="evenodd" clip-rule="evenodd"
+			d="M850.447 1545.48C767.184 1628.75 767.184 1763.74 850.447 1847.01L2647.07 3643.63C2730.34 3726.89 2865.33 3726.89 2948.6 3643.63L3669.63 2922.6C3752.89 2839.33 3752.89 2704.34 3669.63 2621.07L1873.01 824.448C1789.74 741.185 1654.75 741.184 1571.48 824.448L850.447 1545.48ZM917.784 1577.07C851.963 1642.89 851.963 1749.6 917.783 1815.42L2678.06 3575.7C2743.88 3641.52 2850.6 3641.52 2916.42 3575.7L3601.1 2891.01C3666.92 2825.19 3666.92 2718.48 3601.1 2652.66L1840.83 892.38C1775.01 826.559 1668.29 826.559 1602.47 892.38L917.784 1577.07Z"
+			fill="white" stroke="black" stroke-width="41" />
+		<path
+			d="M1443.52 1225.06L1279.06 1389.52C1260.63 1407.95 1260.63 1437.83 1279.06 1456.26C1297.49 1474.69 1327.37 1474.69 1345.8 1456.26L1510.26 1291.8C1528.69 1273.37 1528.69 1243.49 1510.26 1225.06C1491.83 1206.63 1461.95 1206.63 1443.52 1225.06Z"
+			fill="white" stroke="black" stroke-width="11" />
+	</svg>
+	
+	
+		</div>
+		<h5 style="font-weight: 300;">Please rotate your device.</h5>
+	</div>
+</div>
+
+</header>
+<!-- <link rel="stylesheet" href="https://cdn.plyr.io/3.7.7/plyr.css?_v=20230909135036" />
+<script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js?_v=20230909135036"></script> -->
+
+<body style="background-color: rgb(28, 28, 28)">
+  <main id="swup" class="transition-fade">
+    <div id="page" class="pagework page12" data-scroll-container>
+      <div class="rows_2" data-scroll-section>
+        <div id="prew" class="Prew">
+          <div class="container">
+
+
+            <div class="row name_d name_d_course">
+              <div class="col-2 text-center mob_on3">
+                <svg width="200" height="40" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M30.7691 18.9585L32.821 12.6948C33.0369 11.7948 33.9369 11.2549 34.8369 11.5068C34.8729 11.5068 34.9449 11.5428 34.9809 11.5428C35.0528 11.5428 35.2328 11.6148 35.3048 11.6148C36.2048 12.0468 36.5648 13.1268 36.1328 13.9907L32.569 22.7023C32.065 24.0343 31.165 24.5382 29.9051 24.0343C29.3291 23.7823 28.8612 23.3143 28.6452 22.7023L25.1533 13.9187C24.7573 13.0188 25.1533 11.9388 26.0533 11.5068C26.9532 11.1109 28.0332 11.5068 28.4652 12.4068C28.4652 12.4788 28.5012 12.5148 28.5372 12.5868L30.6971 18.9585H30.7691Z" fill="white"/>
+                  <path d="M37.3207 13.1624C37.3207 12.6945 37.5007 12.2625 37.8247 11.9025C38.4726 11.2185 39.5886 11.1825 40.2726 11.8665L40.3086 11.9025C40.6325 12.2265 40.8125 12.6945 40.8125 13.1624V22.45C40.8485 23.422 40.0566 24.2499 39.0846 24.2859C38.0767 24.2859 37.2847 23.458 37.2487 22.45V13.1624H37.3207ZM37.6447 6.71874C38.4007 5.92678 39.6966 5.89078 40.4885 6.64674C40.5245 6.68274 40.5245 6.68274 40.5605 6.71874C41.3525 7.47471 41.3885 8.77065 40.6325 9.56261C40.5965 9.59861 40.5965 9.5986 40.5605 9.6346C39.8046 10.4266 38.5086 10.4626 37.7167 9.7066C37.6807 9.6706 37.6807 9.6706 37.6447 9.6346C37.2127 9.27462 36.9607 8.77064 36.9967 8.23067C36.9967 7.6187 37.2127 7.07873 37.6447 6.71874Z" fill="white"/>
+                  <path d="M49.4881 11.362C52.152 11.686 53.0519 12.838 52.728 14.0259C52.62 14.7459 51.972 15.2859 51.252 15.2859H50.928L50.7481 15.2139L50.4241 15.1419L50.1721 15.0699L49.8481 14.9979C47.6882 14.3499 45.9603 15.5738 45.9603 17.9857C45.9603 20.3976 47.7962 21.6216 50.1001 20.7936L50.5321 20.6136L50.7121 20.5416C51.468 20.2176 52.368 20.5416 52.692 21.2976C52.764 21.4416 52.8 21.5856 52.764 21.7296C52.944 22.6295 52.26 23.4575 50.6041 23.9615C50.1721 24.1415 49.7401 24.2135 49.2721 24.2135C45.7083 24.5014 42.5765 21.8016 42.3245 18.2377C42.0365 14.6739 44.7364 11.542 48.3002 11.29C48.6602 11.326 49.0561 11.362 49.4881 11.362Z" fill="white"/>
+                  <path d="M55.4638 11.5063V9.41836C55.4638 8.4464 56.2558 7.69043 57.1917 7.69043C58.1637 7.69043 58.9197 8.4824 58.9197 9.41836V11.5063H59.9996C60.4316 11.5063 60.8636 11.6862 61.1515 12.0102C61.7635 12.5862 61.7995 13.5222 61.2595 14.1341C61.2235 14.1701 61.1875 14.2061 61.1515 14.2421C60.8276 14.5661 60.4316 14.7461 59.9996 14.7461H58.9197V22.4498C58.9197 22.9177 58.7397 23.3497 58.4157 23.7097C57.7317 24.3577 56.6158 24.3577 55.9318 23.7097C55.6078 23.3857 55.4278 22.9177 55.4278 22.4498V14.7461H54.7799C54.3479 14.7461 53.9519 14.6021 53.6279 14.3141C53.0159 13.7382 52.9799 12.7662 53.5559 12.1542L53.6279 12.0822C53.9519 11.7582 54.3479 11.5783 54.7799 11.5783L55.4638 11.5063Z" fill="white"/>
+                  <path d="M62.3395 13.0904C62.3755 12.1185 63.2034 11.3625 64.1754 11.3625C65.2553 11.2905 66.0113 11.9385 65.9033 12.6225V12.8025C65.9753 12.7305 66.0833 12.5505 66.2273 12.4785C67.5592 11.0025 69.1431 11.0025 69.8631 12.0465C70.3671 12.7305 70.2591 13.6664 69.6111 14.2064C69.5391 14.2784 69.3591 14.3864 69.2871 14.4584L69.1071 14.5304L68.6032 14.7104C68.2432 14.8544 67.8832 14.9984 67.5232 15.2143C66.3713 15.8623 66.0473 16.4743 66.0473 17.0503V22.342C66.0473 23.35 65.2193 24.1419 64.2114 24.1779C63.2754 24.2139 62.4835 23.458 62.4835 22.522C62.4835 22.486 62.4835 22.45 62.4835 22.45C62.4835 22.378 62.3395 13.0904 62.3395 13.0904Z" fill="white"/>
+                  <path d="M70.8711 14.3867C71.951 12.5147 73.9309 11.3628 76.0908 11.3268C79.6547 11.1828 82.7145 13.8827 82.9665 17.4465C83.1825 21.0463 80.4106 24.1062 76.8468 24.3222C73.283 24.5382 70.1871 21.7663 69.9711 18.2025V17.8785C69.9711 16.6186 70.2951 15.4306 70.8711 14.3867ZM73.607 18.3465C73.9309 20.5064 75.1909 21.4063 76.6668 21.0823C77.6748 20.9024 78.5027 19.9304 78.6467 18.3465C78.7187 17.9505 78.7187 17.5545 78.6467 17.1945C78.6467 15.9706 77.8547 14.8906 76.6668 14.5306C75.1909 14.2067 73.8589 15.1066 73.607 17.1945V18.3465Z" fill="white"/>
+                  <path d="M83.7944 13.1623C83.8664 12.1904 84.6224 11.3984 85.6303 11.3264C86.3503 11.1824 87.0343 11.6144 87.2143 12.3344V12.6944C87.8262 11.9744 88.6902 11.5064 89.6262 11.3624C90.2021 11.2904 90.7781 11.2904 91.3541 11.3624C93.622 11.5424 95.3499 13.5223 95.1699 15.8262C95.1699 15.8262 95.1699 15.8262 95.1699 15.8622V22.4859C95.1699 23.4579 94.3779 24.2858 93.37 24.2858C92.47 24.2858 91.7141 23.6379 91.6061 22.7379V16.4382C91.6061 15.8622 91.3541 15.3222 90.9581 14.9623C90.2021 14.1703 88.9062 14.1343 88.1142 14.8903C88.0782 14.9263 88.0782 14.9263 88.0422 14.9623C87.6463 15.3582 87.4303 15.8982 87.4663 16.4382V22.4859C87.3583 23.4579 86.4943 24.1778 85.5224 24.1058C84.6584 24.0338 84.0104 23.3499 83.9024 22.4859V13.1623H83.7944Z" fill="white"/>
+                  <path d="M106.761 18.8867C106.869 19.3546 107.049 19.7506 107.337 20.1466C108.237 21.2985 110.001 21.5505 111.981 20.5786C113.133 19.9306 113.457 19.9306 114.069 20.1466C114.393 20.2906 114.681 20.5426 114.825 20.9026C115.329 22.1625 113.745 24.2864 109.425 24.2864C105.933 24.4304 102.982 21.7305 102.802 18.2387C102.802 17.5547 102.874 16.9067 103.053 16.2588C103.557 13.8109 105.465 11.903 107.949 11.435C110.721 10.931 113.457 12.407 114.573 14.9988C114.861 15.6108 115.005 16.2948 115.077 16.9787C115.257 18.3827 114.753 18.9587 113.601 18.9587L106.761 18.8867ZM111.657 16.6548C111.657 16.5468 111.621 16.4748 111.585 16.4028C111.261 14.7468 110.001 13.9189 108.669 14.2429C107.697 14.5309 106.941 15.3228 106.761 16.3308V16.5828H111.657V16.6548Z" fill="white"/>
+                  <path d="M116.445 13.1623C116.517 12.2264 117.237 11.4344 118.173 11.3264C118.893 11.1824 119.577 11.6144 119.757 12.3344V12.6944C120.369 11.9744 121.233 11.5064 122.169 11.3624C122.745 11.2904 123.321 11.2904 123.896 11.3624C126.164 11.5424 127.892 13.5223 127.712 15.8262C127.712 15.8262 127.712 15.8262 127.712 15.8622V22.4859C127.712 23.4579 126.92 24.2858 125.912 24.2858C125.012 24.2858 124.256 23.6379 124.148 22.7379V16.4382C124.148 15.8622 123.896 15.3222 123.501 14.9623C122.745 14.1703 121.449 14.1343 120.657 14.8903C120.621 14.9263 120.621 14.9263 120.585 14.9623C120.189 15.3582 119.973 15.8982 120.009 16.4382V22.4859C119.901 23.4579 119.037 24.1778 118.065 24.1058C117.201 24.0338 116.553 23.3499 116.445 22.4859V13.1623Z" fill="white"/>
+                  <path d="M133.184 18.8867C133.292 19.3546 133.472 19.7506 133.76 20.1466C134.66 21.2985 136.424 21.5505 138.404 20.5786C139.556 19.9306 139.88 19.9306 140.492 20.1466C140.816 20.2906 141.104 20.5426 141.248 20.9026C141.752 22.1625 140.168 24.2864 135.848 24.2864C132.356 24.4304 129.404 21.7305 129.224 18.2387C129.224 17.5547 129.296 16.9067 129.476 16.2588C129.98 13.8109 131.888 11.903 134.372 11.435C137.144 10.931 139.88 12.407 140.996 14.9988C141.284 15.6108 141.428 16.2948 141.5 16.9787C141.68 18.3827 141.176 18.9587 140.024 18.9587L133.184 18.8867ZM138.08 16.6548C138.08 16.5468 138.044 16.4748 138.008 16.4028C137.576 14.7468 136.424 13.9189 135.092 14.2429C134.12 14.5309 133.364 15.3228 133.184 16.3308C133.184 16.4388 133.148 16.5108 133.112 16.5828H138.08V16.6548Z" fill="white"/>
+                  <path d="M142.868 13.0904C142.904 12.1185 143.732 11.3625 144.703 11.3625C145.783 11.2905 146.539 11.9385 146.431 12.6225V12.8025C146.503 12.7305 146.611 12.5505 146.755 12.4785C148.159 11.0025 149.671 11.0025 150.391 12.0465C150.895 12.7305 150.787 13.6664 150.139 14.2064C149.995 14.3144 149.887 14.3864 149.707 14.4584L149.527 14.5304L149.023 14.7104C148.663 14.8544 148.303 14.9984 147.943 15.2143C146.791 15.8623 146.467 16.4743 146.467 17.0503V22.342C146.467 23.35 145.639 24.1779 144.631 24.1779C143.624 24.1779 142.796 23.35 142.796 22.342L142.868 13.0904Z" fill="white"/>
+                  <path d="M159.283 12.587C159.355 11.831 160.039 11.2911 160.759 11.3271H160.939C161.911 11.3991 162.703 12.155 162.775 13.163V22.4505C162.775 27.0943 160.039 29.5782 155.251 29.0742C154.315 29.0022 153.415 28.7503 152.587 28.3183C150.859 27.4903 150.607 26.3384 151.435 25.4024C151.903 24.8984 152.623 24.7544 153.271 24.9704L154.027 25.2944C154.171 25.4024 154.351 25.4384 154.531 25.4744C157.591 26.5544 159.355 25.2944 159.355 22.9905V22.4865C158.023 24.3945 154.783 24.7184 152.479 22.4865C150.895 20.7586 150.283 18.3827 150.823 16.1148C150.967 15.2509 151.291 14.4589 151.723 13.7029C153.703 10.5711 157.699 10.2111 159.499 12.443L159.283 12.587ZM154.819 20.2187C155.647 21.2266 157.123 21.3706 158.131 20.5426C158.311 20.3626 158.455 20.2906 158.563 20.1107C158.995 19.4267 159.211 18.6707 159.211 17.8788C159.211 16.2948 158.635 15.3229 157.735 14.8189C156.151 14.0629 154.423 15.0709 154.171 17.2308C154.171 17.4828 154.099 17.6628 154.099 17.8788C154.063 18.7427 154.315 19.5347 154.819 20.2187Z" fill="white"/>
+                  <path d="M164.682 11.5066C165.546 11.1106 166.554 11.4706 166.95 12.2985C166.95 12.3345 166.986 12.3705 166.986 12.4065C166.986 12.4785 167.058 12.5865 167.058 12.6585L169.29 18.6343L171.522 12.6585C171.738 11.7226 172.71 11.1106 173.646 11.3626C174.546 11.5786 175.122 12.4425 174.978 13.3425C174.978 13.5225 174.906 13.7025 174.798 13.8465L169.002 28.0298C168.75 29.0018 167.778 29.6138 166.806 29.3618H166.77C166.698 29.3618 166.59 29.2898 166.518 29.2898C165.618 28.9298 165.186 27.8858 165.51 26.9859V26.9139L167.166 23.0981L163.423 13.7385C163.351 12.8025 163.819 11.9386 164.682 11.5066Z" fill="white"/>
+                  <path d="M50.0641 29.7576C50.5681 29.7576 50.8921 29.9376 50.8921 30.4056C50.8921 30.8736 50.5681 31.1616 49.9921 31.1616H49.4881V29.8296C49.6681 29.7576 49.8841 29.7216 50.0641 29.7576ZM51.324 33.3934C51.576 33.1415 51.72 32.8175 51.756 32.4935C51.756 32.2055 51.684 31.9175 51.504 31.6655C51.288 31.4135 51 31.2695 50.6761 31.2335C50.8561 31.1615 51.108 31.0536 51.18 30.9096C51.36 30.7656 51.432 30.5496 51.432 30.3336C51.468 30.0096 51.324 29.7216 51.108 29.5056C50.8201 29.2896 50.4601 29.1816 50.1001 29.1816H48.9482V33.7534H50.2801C50.6041 33.7534 51.0001 33.6454 51.324 33.3934ZM50.8921 31.7375C51.216 32.1335 51.216 32.6735 50.8921 33.0695C50.6401 33.2495 50.3521 33.3215 50.0641 33.3215H49.5601V31.5935H50.0641C50.3521 31.5935 50.6401 31.6295 50.8921 31.7375Z" fill="white"/>
+                  <path d="M60.8276 33.7897H58.1997V29.2539H58.7757V33.2137H60.8276V33.7897Z" fill="white"/>
+                  <path d="M67.0553 32.3855V29.2896H67.6312V32.3495C67.5952 32.8175 67.9192 33.2135 68.3512 33.2495C68.4232 33.2495 68.4592 33.2495 68.5312 33.2495C68.7832 33.2495 69.0712 33.1415 69.2872 32.9975C69.4672 32.7815 69.5392 32.5295 69.5392 32.2415V29.1816H70.1151V32.3135C70.1151 32.7095 69.9711 33.1055 69.6832 33.3934C68.9992 33.8974 68.0632 33.8974 67.3793 33.3934C67.1273 33.1415 67.0193 32.7815 67.0553 32.3855Z" fill="white"/>
+                  <path d="M80.6626 29.8299H78.5747V31.0538H80.0867V31.5578H78.5747V33.2137H80.5546V33.7897H77.9268V29.2539H80.6626V29.8299Z" fill="white"/>
+                  <path d="M95.5659 29.7575C96.3938 29.7575 96.8258 30.0095 96.8258 30.5854C96.8258 31.1614 96.3938 31.4854 95.6739 31.4854H95.2419V29.8295H95.5659V29.7575ZM95.7459 32.0614C96.8978 32.0614 97.4738 31.5574 97.4738 30.4775C97.4738 29.5775 96.8258 29.1455 95.4939 29.1455H94.6659V33.7173H95.2419V31.9894L95.7459 32.0614Z" fill="white"/>
+                  <path d="M104.601 30.2258C104.781 29.9019 105.141 29.6859 105.501 29.7219C106.329 29.7219 106.833 30.2978 106.833 31.4498C106.869 31.9178 106.725 32.3857 106.509 32.7817C106.293 33.1057 105.897 33.2857 105.501 33.2857C105.141 33.2857 104.817 33.1057 104.673 32.7817C104.421 32.3857 104.313 31.9178 104.349 31.4498C104.277 31.0538 104.349 30.6218 104.601 30.2258ZM104.097 33.2137C104.421 33.6097 104.889 33.8617 105.429 33.8617C105.969 33.8977 106.509 33.6457 106.833 33.2137C107.193 32.7097 107.373 32.0978 107.337 31.4858C107.337 30.9098 107.157 30.3338 106.833 29.8299C106.509 29.3979 105.969 29.1819 105.429 29.2539C104.925 29.2539 104.421 29.5059 104.097 29.9019C103.449 30.9098 103.449 32.2057 104.097 33.2137Z" fill="white"/>
+                  <path d="M118.677 29.2539L117.273 33.8977H117.129L116.049 30.7298L115.041 33.8977H114.789L113.385 29.2539H114.033L114.969 32.3858L115.941 29.2539H116.193L117.129 32.3858L118.101 29.2539H118.677Z" fill="white"/>
+                  <path d="M127.64 29.8299H125.552V31.0538H127.064V31.5578H125.552V33.2137H127.568V33.7897H124.904V29.2539H127.64V29.8299Z" fill="white"/>
+                  <path d="M135.02 29.7577C135.308 29.7577 135.596 29.8297 135.848 29.9377C136.028 30.0817 136.136 30.2977 136.1 30.5137C136.1 30.7657 136.028 30.9817 135.848 31.1617C135.596 31.3057 135.308 31.3417 135.02 31.3417H134.588V29.8657C134.588 29.8297 135.02 29.7577 135.02 29.7577ZM135.92 31.7377C136.172 31.6657 136.388 31.5217 136.568 31.3057C136.712 31.0897 136.82 30.8377 136.82 30.5497C136.82 29.7217 136.244 29.2178 135.164 29.2178H134.012V33.7896H134.66V31.8096H135.308L136.568 33.7176H137.324L135.992 31.6297L135.92 31.7377Z" fill="white"/>
+                  </svg>
+                                                  
+              </div>
+              <div class="col-2 mob_off">
+                <h3></h3>
+              </div>
+              <div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="info_gradient"></div>
+          <div id="imgbox" class="imgbox imgbox_inver">
+            <picture><img class="img_back_main img_back_mai_invert"  src="img/invert_main.jpg" alt=""></picture>
+            <div class="lds-dual-ring"></div>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_1.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_1.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_3.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_3.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_2.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_2.jpg" alt="ASTON"></picture>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_4.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_4.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_5.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_5.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/invert_img_6.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/invert_img_6.jpg" alt="ASTON"></picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          <div class="mobile-carusel" id="gallery-img">
+            <a style="margin-left: 10vw;" href="img/invert_mobile_1.jpg" data-pswp-width="638" data-pswp-height="956"
+              target="_blank" class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_1.jpg" alt=''></picture>
+            </a>
+            <a href="img/invert_mobile_2.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_2.jpg" alt=''></picture>
+            </a>
+            <a href="img/invert_mobile_3.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_3.jpg" alt=''></picture>
+            </a>
+            <a href="img/invert_mobile_4.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_4.jpg" alt=''></picture>
+            </a>
+            <a href="img/invert_mobile_5.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_5.jpg" alt=''></picture>
+            </a>
+            <a style="margin-right: 10vw;" href="img/invert_mobile_6.jpg" data-pswp-width="638" data-pswp-height="956"
+              target="_blank" class="mobile-carusel-item">
+              <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_mobile_6.jpg" alt=''></picture>
+            </a>
+        
+        
+          </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10">
+      
+          </div>
+        </div>
+      </div>
+        <div class="pg-1_bk_0">
+          <div class="container">
+          <div class="row justify-content-end align-items-center d-flex">
+            <h2>About</h2>
+            <div class="col-3 mob_off"></div>
+            <div class="col-6  mob_on justify-content-end align-items-center d-flex">
+              <p>Victon Energy is a website project for a company specializing in the installation of uninterrupted power supply equipment for homes. The goal is to emphasize and prove the convenience and necessity of such solutions, while also showcasing the company’s seriousness and extensive experience in the field</p>
+            </div>
+            <div class="col-3 mob_off"></div>
+
+          </div>
+          </div>
+        </div>
+        <div class="task_model">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <h2>TASKS</h2>
+              </div>
+              <div class="col-8 info mob_on_full">
+                <ol>
+                  <li>
+                    Enhance User Experience (UX):
+                    <ul><br>
+                      <li>Develop intuitiveness and ease of navigation, ensuring users can find information quickly. Improve interaction with site
+                      elements to improve usability and minimize errors on the homepage</li><br>
+                    </ul>
+                  </li><br>
+                  <li>
+                    Creating an attractive and modern user interface (UI):
+                    <ul><br>
+                    <li>
+                      Develop a website UI that is stylish and aesthetically pleasing and perfectly aligned with Academy brand identity.
+                      Utilizing modern design trends and elements allowed us to create an original and unforgettable visual identity for the
+                      site.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    Increase of conversion rate:
+                    <ul><br>
+                      <li>Develop page layouts based on conversion-focused design principles to optimize successful user interactions such as
+                      orders, and. Reinforce visually appealing elements that attract attention and motivate users to take desired actions.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    Develop User flow :
+                    <ul><br>
+                      <li>Develop the possible user flow of such a site</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 mob_on_full">
+                <h2>Target audience</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 mob_on_full">
+                <p>This course is geared towards individuals between the ages of 20 and 35 who are driven to enhance their financial
+                situation and yearn for the flexibility of remote work.
+                
+                We're targeting those who are actively seeking ways to break free from traditional office settings and embrace the
+                freedom of location-independent work. This includes individuals who are passionate about personal growth, financial
+                independence, and the ability to design a lifestyle that aligns with their values and aspirations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="padding-bottom: 0px;" class="pg-1_bk_2 pg-1_bk_2_invert ">
+
+          <div class="container text_plus_2">
+            <div style="padding-bottom: 0px;" class="row justify-content-center">
+              <div class="row justify-content-center">
+                <div class="col-8 mob_on_full">
+                  <picture><img id="img_back_DR_3" width="100%" src="img/invert_ver.jpg" alt=""></picture>
+                </div>
+              </div>
+              <div style="padding-bottom: 0px;" class="row">
+                <div class="col-12">
+                  <picture><img  id="img_back_DR_4" style="margin-bottom: 0px; border-radius: 0px;" width="100%" src="img/invert_macbook.png" alt=""></picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 100px;" class="fybrid-mob_page container">
+          <div class="row">
+            <div class="col-12 text-center text_drdoogy">
+              <h2>Course<br><span>Images<br></span></h2>
+              <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.9393 20.0607C14.5251 20.6464 15.4749 20.6464 16.0607 20.0607L25.6066 10.5147C26.1924 9.92893 26.1924 8.97918 25.6066 8.3934C25.0208 7.80761 24.0711 7.80761 23.4853 8.3934L15 16.8787L6.51472 8.3934C5.92893 7.80761 4.97918 7.80761 4.3934 8.3934C3.80761 8.97918 3.80761 9.92893 4.3934 10.5147L13.9393 20.0607ZM13.5 17V19H16.5V17H13.5Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <div class="col-9" id="gallery-img">
+              <picture></picture><img width="100%" class="carousel_img des_off" id="img_back_AS_2" src="img/invert_img_1.jpg" alt="ASTON"></picture>
+              <a href="img/invert_img_1.jpg" data-pswp-width="1784" data-pswp-height="890" target="_blank" class="mobs_off">
+                <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_img_1.jpg" alt=''></picture>
+              </a>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-9" id="gallery-img">
+              <picture><img width="100%" class="carousel_img des_off" id="img_back_AS_2" src="img/invert_img_4.jpg" alt="ASTON"></picture>
+              <a href="img/invert_img_4.jpg" data-pswp-width="1784" data-pswp-height="890" target="_blank" class="mobs_off">
+                <picture><img width="100%" class="mobile-carusel-item-img" src="img/invert_img_4.jpg" alt=''></picture>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="pg-1_bk_3">
+          <div style="margin-bottom: 200px;" class="container fonts_colors_con ">
+            <div class="row">
+              <div class="col-12 font-ek">
+                <h2>COLOR <span>&</span> TYPOGRAPHY</h2>
+              </div>
+            </div>
+            <div class="row colors_box">
+              <div class="col-4 color_bl_1 bl_style"
+                style="background-color: #0E0E0E; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);">
+                <h3>#0E0E0E</h3>
+              </div>
+              <div class="col-4 color_bl_2 bl_style"
+                style="background-color: #141414; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);color: black;">
+                <h3>#141414</h3>
+              </div>
+              <div class="col-4 color_bl_3 bl_style"
+              style="background-color: #FF5400; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);">
+              <h3 >#FF5400</h3>
+            </div>
+              <div class="fonts_box_back">
+                <div class="fonts_box">
+                  <div class="row fonts_main_box">
+                    <div class="col-2">
+                      <h3>Fonts</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 main_font_inter">
+                      <h3>Inter</h3>
+                    </div>
+                    <div class="col-12 font_letter">
+                      <h4>
+                        A B C D E F G H I J K L M N O P Q R D T U V W X Y Z
+                      </h4>
+                      <h4>
+                        a d c d e f g h i j k l m n o p q r d t u v w x y z
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="row color_site_box">
+                    <!-- <div class="col-5 color_site color_bl_4" style="background-color: #ff1252;">
+                      <h3>#ff1252</h3>
+                    </div> -->
+                    <div class="col-5 color_site color_bl_5" style="background-color: #141414;">
+                      <h3 >#141414</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pg-1_bk_41">
+          <div class="main_next_mob">
+            <div class="container">
+              <div class="row justify-content-center w-2">
+                <div class="col-10 position-relative">
+                  <h3 class="text-center">Next Project</h3>
+                  <a href="index8.html">
+                    <picture><source srcset="img/senator_main.webp" type="image/webp"><img id="img_main_6" class="mobile_pic" src="img/senator_main.jpg" alt=""></picture>
+                  </a>
+                  <div class="row row_info_main">
+                    <div class="col-6">
+                      <h2>SENATOR</h2>
+                    </div>
+                    <div class="col-4">
+                      <a href="index8.html">
+                        <svg width="40%" height="40%" viewBox="0 0 30 16" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M29.7071 8.7071C30.0976 8.31658 30.0976 7.68341 29.7071 7.29289L23.3431 0.92893C22.9526 0.538405 22.3195 0.538405 21.9289 0.92893C21.5384 1.31945 21.5384 1.95262 21.9289 2.34314L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.7071ZM1.11539e-07 9L29 9L29 7L-1.11539e-07 7L1.11539e-07 9Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="back_blur">
+                  <div class="position-relative">
+                    <span class="blur_obj blur_obj_senator"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+</body>
+
+
+
+
+
+
+
+<!-- <script src="https://cdn.blobity.dev/by.js?autoStart&licenseKey=...&_v=20230909135036"></script>
+  <script src="https://cdn.blobity.dev/by.js?_v=20230909135036"></script> -->
+
+
+
+
+
+
+
+
+
+
+<script src="files/script /swup.js?_v=20230909135036"></script>
+<script src="files/script /fast-image-zoom.js?_v=20230909135036"></script>
+
+<script src="files/script /tilt.js?_v=20230909135036"></script>
+<script type="module" src="files/script /script.js?_v=20230909135036"></script>
+
+
+
+<footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js?_v=20230909135036"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+</footer>
+
+</html>

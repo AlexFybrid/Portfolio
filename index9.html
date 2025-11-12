@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.createjs.com/1.0.0/preloadjs.min.js?_v=20230909135036"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js?_v=20230909135036"></script>
+  <script src="https://unpkg.com/@swup/preload-plugin@3?_v=20230909135036"></script>
+  <script src="https://unpkg.com/@swup/fade-theme@2?_v=20230909135036"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js?_v=20230909135036"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500&family=Inter:wght@100;200;300;600;700&family=Italiana&family=Open+Sans:wght@300;400;500;600;700&display=swap&_v=20230909135036"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.css?_v=20230909135036">
+
+  <link rel="stylesheet" href="css/style.min.css?_v=20230909135036"></link>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css?_v=20230909135036" rel="stylesheet"integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="files/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="files/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="files/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="files/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="files/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="files/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="files/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="files/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="files/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="files/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="files/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon/favicon-16x16.png">
+    <link rel="manifest" href="files/favicon/manifest.json">
+    <meta name="msapplication-TileImage" content="files/favicon/ms-icon-144x144.png">
+    <title>Alex Portfolio</title>
+</head>
+<header>
+	<nav class="Main_navbar">
+		<li><a id="bt_work" data-swup-preload href="index.html">Work</a></li>
+		<li><a href="index2.html">About</a></li>
+		<div class="select_nav"></div>
+	</nav>
+<div id="preloader">
+	<div class="progress-bar_box">
+		<div class="progresss-bar-main">
+			<div class="progresss"></div>
+		</div>
+	</div>
+	<div class="backgraund_bar_box"></div>
+</div>
+<div class="rotate_box">
+	<div>
+		<div class="rotate">
+	<svg width="40%" height="40%" viewBox="0 0 4521 4468" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M607.76 2340C607.76 2308.8 633.056 2283.5 664.26 2283.5C695.464 2283.5 720.76 2308.8 720.76 2340L607.76 2340ZM664.26 2537.44L607.76 2537.44L664.26 2537.44ZM1834.26 3707.44L1834.26 3763.94L1834.26 3763.94L1834.26 3707.44ZM2228.67 3707.44L1663.67 4033.65L1663.67 3381.24L2228.67 3707.44ZM720.76 2340L720.76 2537.44L607.76 2537.44L607.76 2340L720.76 2340ZM720.76 2537.44C720.76 3152.41 1219.29 3650.94 1834.26 3650.94L1834.26 3763.94C1156.88 3763.94 607.76 3214.82 607.76 2537.44L720.76 2537.44Z"
+			fill="white" />
+		<path
+			d="M3912.59 2127.39C3912.59 2158.59 3887.29 2183.89 3856.09 2183.89C3824.88 2183.89 3799.59 2158.59 3799.59 2127.39L3912.59 2127.39ZM3856.09 1929.94L3912.59 1929.94L3856.09 1929.94ZM2686.09 759.94L2686.09 703.44L2686.09 703.44L2686.09 759.94ZM2291.68 759.94L2856.68 433.737L2856.68 1086.14L2291.68 759.94ZM3799.59 2127.39L3799.59 1929.94L3912.59 1929.94L3912.59 2127.39L3799.59 2127.39ZM3799.59 1929.94C3799.59 1314.97 3301.06 816.44 2686.09 816.44L2686.09 703.44C3363.47 703.44 3912.59 1252.56 3912.59 1929.94L3799.59 1929.94Z"
+			fill="white" />
+		<path fill-rule="evenodd" clip-rule="evenodd"
+			d="M850.447 1545.48C767.184 1628.75 767.184 1763.74 850.447 1847.01L2647.07 3643.63C2730.34 3726.89 2865.33 3726.89 2948.6 3643.63L3669.63 2922.6C3752.89 2839.33 3752.89 2704.34 3669.63 2621.07L1873.01 824.448C1789.74 741.185 1654.75 741.184 1571.48 824.448L850.447 1545.48ZM917.784 1577.07C851.963 1642.89 851.963 1749.6 917.783 1815.42L2678.06 3575.7C2743.88 3641.52 2850.6 3641.52 2916.42 3575.7L3601.1 2891.01C3666.92 2825.19 3666.92 2718.48 3601.1 2652.66L1840.83 892.38C1775.01 826.559 1668.29 826.559 1602.47 892.38L917.784 1577.07Z"
+			fill="white" stroke="black" stroke-width="41" />
+		<path
+			d="M1443.52 1225.06L1279.06 1389.52C1260.63 1407.95 1260.63 1437.83 1279.06 1456.26C1297.49 1474.69 1327.37 1474.69 1345.8 1456.26L1510.26 1291.8C1528.69 1273.37 1528.69 1243.49 1510.26 1225.06C1491.83 1206.63 1461.95 1206.63 1443.52 1225.06Z"
+			fill="white" stroke="black" stroke-width="11" />
+	</svg>
+	
+	
+		</div>
+		<h5 style="font-weight: 300;">Please rotate your device.</h5>
+	</div>
+</div>
+
+</header>
+<!-- <link rel="stylesheet" href="https://cdn.plyr.io/3.7.7/plyr.css?_v=20230909135036" />
+<script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js?_v=20230909135036"></script> -->
+
+<body style="background-color: rgb(28, 28, 28)">
+  
+  <main id="swup" class="transition-fade">
+    <div id="page" class="pagework page9" data-scroll-container>
+      <div class="rows_2" data-scroll-section>
+        <div id="prew" class="Prew">
+          <div class="container">
+
+
+            <div class="row name_d ">
+              <div style="fill: #fff;" class="col-3">
+                <svg sty version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 1500 600" style="enable-background:new 0 0 1500 600;" xml:space="preserve">
+                <path class="st0" d="M754.6,244.8c2-4.5,7.2-27.4,3.2-37.5c-0.7-1.7-3.3-7.2-21.7-13c-29-9.2-56.3-6.3-74.7-2.1
+                  c-15.2,3.4-27.9,6.5-40.2,17.3c-4.8,4.2-16.3,14.3-17.3,28.6c-0.9,12.8,7,22.9,12,29c0,0,26.4,32.8,85,107.1
+                  c16.7,21.2,20.3,28.1,22.5,32.8c6.2,13.2,20.4,43.9,7.4,76c-11.6,28.7-39.8,41-56.8,48.2c-10.9,4.6-21.5,7.4-62.1,11.4
+                  c-30,2.9-56.2,5.5-96,6c0,0-60.1,0.8-105.9-7.4c-11.2-2-18.2-4.4-27.8-7.8c-4.2-1.5-10.4-3.8-17.5-8.4c-5.3-3.5-9-5.9-10.9-10.1
+                  c-3.7-7.9,0.9-17.2,2.9-21.3c16-32.3,94.3-59.3,94.3-59.3c25.1-9.1,54.5-18,87.8-25c29.5-6.1,56.7-9.6,80.9-11.4l33.8,22.8
+                  c-11.9-0.6-28.8-1-49.1-0.3c-28.4,1.1-76.7,3.2-134,21.9c-16.2,5.3-42.3,12.8-70.7,30.4c-12.9,8-35.4,22.1-32.7,33.1
+                  c1.4,5.5,8.7,8.6,15.6,10.4l51.1,2c38.9,0.5,110,1.2,155.5,0.5c1.8,0,7-0.2,17.4-0.5c66.4-5.5,68.5-3,77.4-9.4
+                  c20.3-14.6,18.3-42.8,18.1-47.5c-0.5-11.4-3.9-21.7-15.1-40.9c-7.6-13.2-22.6-36.9-56.4-74.2c-16.1-17.8-30.1-37.4-45.6-55.7
+                  c-3.2-3.8-9-10.6-11.7-21.1c-4.4-17-0.8-23.9,1.5-29.1c20.1-44.9,95-63.3,119.3-66.7c0,0,29.5-4.2,58.7,5.9
+                  c7,2.4,13.8,5.7,19.1,12.4c6.2,7.9,7.1,16.6,7.4,20.1c1.7,20-11.9,32.8-14.4,34.9c-1,0.9-4.2,3.5-7.7,3c-0.5-0.1-2.3-0.3-3-1.6
+                  C753.6,246.9,754.4,245.3,754.6,244.8z"/>
+                <path class="st0" d="M1295.3,431.7l-31.3,20.6c2.9-3.1,7-7.8,11-14.1c3.8-5.9,6.9-10.9,8.4-18.1c1.1-5.3,2.9-13.7-1.8-20.3
+                  c-3.9-5.5-10.4-7-14.3-7.9c-4.6-1-15.3-2.3-33.5,6.6c-8.5,4.2-48.4,35.2-61.8,45.9c-9.3,7.4-35.8,24-40.9,23.2
+                  c-1-0.2-3.1-0.5-3.9-1.9c-1.6-2.8,2.7-7.9,7.2-13.2c9-10.6,16.4-18.8,18.9-21.7c5.6-6.4,4.8-6.1,15.5-19.1
+                  c6.2-7.5,11.4-13.6,14.8-17.5h-32.4c-5.2,6.4-11.8,13.9-19.9,21.9c-3.5,3.5-12.3,11.9-24.8,21.6c-17.2,13.4-55.4,37.6-57.9,35.4
+                  c-0.9-0.8-0.7-2.6-0.6-3.3c0.4-3.3,15-21.3,21-28.6c4.3-5.2,13-16.6,30.3-39.5c10.5-13.9,10.9-14.6,21.2-28
+                  c9.3-12.2,11.1-14.4,19.4-25.1c32-41.6,29-40.5,40.6-53.8c3-3.4,11.3-12.8,20.6-26.7c1.8-2.7,3.2-4.9,4-6.3h-31.4l-46.7,60.9
+                  l-45.2,60l-14.3,19.5c-0.4,0.5-1,0.8-1.6,0.8c-0.7,0-1.4-0.4-1.8-1c-2.2-3.5-4.5-5.4-6.3-6.6c-6.7-4.4-28.3-3.8-45.5,9
+                  c-0.7,0.5-1.2,0.9-1.6,1.2c-0.5,0.5-1.4,1.3-2.4,2.3c0,0-3.4,3.2-7.2,6.5c-5.2,4.6-14.7,12.8-27.5,22.4
+                  c-12.5,9.4-22.7,15.8-28.8,19.7c-6.7,4.3-12.6,7.7-17,10.3c-1,0.3-2.2,0.6-2.7,0c-1.3-1.6,5.5-9,9.1-13c8.7-9.7,15.6-20.9,23.6-31.2
+                  c4.6-6,9.8-12.7,14-18.1c4.2-5.4,7.4-9.6,8.1-10.4h-33l-17.2,21.9c-8.8,10.1-16.6,18.4-22.7,24.8c-8.8,9.2-13.9,13.9-19.6,18.7
+                  c-0.7,0.6-4.5,5.4-11,8.5c-1.4,0.7-6,2.8-7.2,1.5c-1-1.2,1-4.6,3-7.6c7.1-11,14-19.3,17-23c3.9-4.9,3.2-4.6,10.7-15.4
+                  c2.5-3.6,5.6-7.9,9.3-12.8c3.7-4.9,8-10.5,12.8-16.6h-37.9c-0.9,1.8-2.2,4.3-4,7.2c-5.1,8-11.1,14.3-25.5,26
+                  c-1.9,1.6-1,0.8-21.3,16.3c-7.1,5.4-14.7,10.2-21.9,15.4c-3.5,2.6-5.5,3.5-7.8,4.6c-0.1,0-0.1,0.1-0.2,0.1c-5.6,2.8-11-3.9-7.3-8.9
+                  l101.3-134.1H923l6.4-9.7h-23.7l31.5-41.2l-30.9,0.1l-34,41.3h-32.6l-6,9.2h31.3c-60.9,78-95.3,118.7-96.9,121
+                  c-1.4,2.1-10,14.6-4.7,26.9c0.5,1.1,3.9,8.9,12.2,12c6.2,2.4,12.6,1.2,19.6-1.5c11.2-4.2,22.5-11.6,32.1-18.8
+                  c9.6-7.2,17.3-14.2,21.2-17.9c-1.4,2.2-3.2,5.6-4.4,10.2c-1.1,4.1-4.1,15.6,2.4,23c3.5,3.9,8.4,5.1,10.3,5.5
+                  c4.7,1.1,8.4,0.3,10.7-0.1c6.8-1.4,14-5.4,19.8-9.4c5.8-3.9,10.2-7.8,11.3-8.8c-0.3,1.9-0.5,4.9,0.6,8.4c1.9,5.7,6.3,9,7.7,9.8
+                  c10.7,6.6,32-7.6,54.7-23.1c4.5-3.1,8.5-5.9,11.9-8.4c3.4-2.5,6.2-4.6,8.2-6.2c-0.9,2-2,5.1-2.8,9.1c-1,5.2-2.5,13.2,1.7,20.6
+                  c0.6,1,3.3,5.7,7.8,8.1c9,4.8,23.6-0.1,35-13.1c0.6-0.7,1.8-1.8,3.6-2c0.5-0.1,1.4-0.2,1.9,0.4c0.2,0.2,0.3,0.8,0.4,1.5
+                  c0.2,3,1,6,2.6,8.5c0.8,1.3,1.7,2.4,2.4,2.9c2.6,1.6,5.6,2.3,8.6,2.3c5.1-0.1,13.4-1.9,25.4-8.3c4.9-2.6,10.7-5.9,17.1-10.1
+                  c6.4-4.2,13.4-9.3,20.8-15.4c0,0.3-0.6,3-1.4,6.7c-3.1,14.4,8.5,27.7,23.2,26.5c5-0.4,9.2-1,11.1-1.7c10.4-4,20.3-10.5,28.8-17.1
+                  c8.5-6.6,15.5-13.3,20.1-17.9c0,1.2-1.3,4.9-1.7,12.2c-0.4,8,1.1,11.1,2.2,14c2.6,6.6,9.6,9.4,12.4,10.4c2.1,0.8,7.5,2.3,18.7,0
+                  c9.5-2,16.2-5.3,26.7-10.9c12.6-6.8,19-10.2,27.2-15.2c13.6-8.3,25.3-16.5,40.8-27.4c1.1-0.7,2-1.4,2.8-2c1.3-0.9,2.1-2.5,2.1-4.1
+                  v-5.1c0-0.6-0.5-1.2-1.2-1.2L1295.3,431.7z M1009.2,467.1c-1.6,1-3.2,1.6-4.6,2.1c-1.6,0.5-3.2-0.3-3.8-1.8
+                  c-0.7-1.7-0.3-3.6,0.5-4.9c0,0,4.9-9.4,10-16.9c6.9-10.2,21.2-28.6,29.4-38c0.5-0.5,2.2-2.5,5-4.3c1.2-0.7,1.8-1.1,2.7-1.3
+                  c3-0.6,6.6,1.7,7.7,4.3c1.6,3.7-1.6,8.4-4,11.8C1033.3,444.5,1012.7,465,1009.2,467.1z M1219.1,467.1c-1.6,1-3.2,1.6-4.6,2.1
+                  c-1.6,0.5-3.2-0.3-3.8-1.8c-0.7-1.7-0.3-3.6,0.5-4.9c0,0,4.9-9.4,10-16.9c6.9-10.2,21.2-28.6,29.4-38c0.5-0.5,2.2-2.5,5-4.3
+                  c1.2-0.7,1.8-1.1,2.7-1.3c3-0.6,6.6,1.7,7.7,4.3c1.6,3.7-1.6,8.4-4,11.8C1243.2,444.5,1222.6,465,1219.1,467.1z"/>
+                <circle class="st0" cx="1187.9" cy="350.5" r="16.1"/>
+                <path class="st0" d="M698.7,72.9h-77.4l39.2-36.6l0.6-0.5c2.1-2,0.7-5.5-2.2-5.5H138.1c-1.7,0-3.2,1.4-3.2,3.2v486.4
+                  c0,2.8,3.3,4.2,5.3,2.3l0.7-0.6l33.9-31.7v72.5c0,2.8,3.3,4.2,5.3,2.3l0.7-0.6L700.3,78.8l0.6-0.5C703,76.4,701.6,72.9,698.7,72.9z
+                  M142.9,510.2c-0.8,0.7-2,0.2-2-0.9V37.5c0-0.7,0.5-1.2,1.2-1.2h505.1c1.1,0,1.6,1.3,0.8,2l-37,34.5H178c-1.7,0-3.2,1.4-3.2,3.2
+                  v404.4L142.9,510.2z M211.2,212.9C211.2,212.9,211.2,212.9,211.2,212.9c1.1,0.7,2.2,1.4,3.4,2c6.7,3.5,14.4,5.5,22.6,5.5h8.1
+                  c21.2,0,39-13.8,44.9-32.7c1.3-4.2,2-8.7,2-13.3c0-19.5-12.4-36.1-29.8-42.8c-2.8-1.1-5.7-1.9-8.8-2.4c-2.7-0.5-5.4-0.7-8.3-0.7
+                  c-12.2,0-23.3,4.6-31.6,12c-1.1,1-2.6,0.8-3.5,0c-0.8-0.7-1.2-1.9-0.6-3.2c0,0,1.6-2.7,2.4-4c8.6-12.8,23.3-21.2,40-21.2h82.4
+                  l-0.1,0.4L286,248.7c-2.6,7.4-9.2,12.7-16.9,13.7c-11.9,1.6-29.6,4.5-40.1,8.7c-8.8,3.5-14.9,7.1-19.8,11.5
+                  c-6.6,5.9-10.1,11.8-12,15c-10.8,18.4-15.3,35.9-16.4,65.4V177.9C187,192.4,197.7,204.7,211.2,212.9z M180.8,119.4V80
+                  c0-0.7,0.5-1.2,1.2-1.2h40C203.4,86.5,188.6,101.1,180.8,119.4z M277,307.6c56.9-30.9,78.1-68.4,78.1-68.4c3-4.5,6-9.5,8.9-15.1
+                  c3.7-7.2,6.5-14,8.7-20.4c1.6-4.7,6-7.8,11-7.8c11.4,0,30.9,0.1,37.6-0.1c0,0,12.9-0.4,22-4.6c0.1-0.1,0.3-0.1,0.4-0.2
+                  c0.7-0.4,1.4-0.7,2-1.1c3.4-2,6.3-5,8.6-8.5c1.9-3,3.4-6.5,4.2-10.3c0.5-2.5-1.3-4.8-3.9-4.8H389l19.2-54.2h57.2
+                  c31.2-0.2,59.4-12.9,79.6-33.3h59.6l-423.9,396v-91.3C184.3,379.5,222.8,337,277,307.6z M687.9,80.9L182.8,552.7
+                  c-0.8,0.7-2,0.2-2-0.9v-67.5L614.9,78.8h72.2C688.2,78.8,688.7,80.1,687.9,80.9z"/>
+                </svg>
+              </div>
+              <div class="col-7 align-items-center info_up_box">
+                <h3 style="font-size: 0.6rem;">"Fybrid Studio" is an elaborated design layout for a web studio. Aimed at demonstrating the capabilities and services of
+                the studio, this website stands as a testament to our dedication to creating exceptional digital solutions. Our
+                user-centric approach ensures that every aspect of the site is tailored for an optimal user experience.
+                </h3>
+              </div>
+              <div class="col-2 mob_off">
+                <h3></h3>
+              </div>
+              <div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="info_gradient"></div>
+          <div id="imgbox" class="imgbox imgbox_fyb">
+            <picture><source srcset="img/fybridS_main_2.webp" type="image/webp"><img class="img_back_main"  src="img/fybridS_main_2.jpg" alt=""></picture>
+            <div class="lds-dual-ring"></div>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_1.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_1.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_2.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_2.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_3.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_3.jpg" alt="ASTON"></picture>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_4.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_4.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_5.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_5.jpg" alt="ASTON"></picture>
+                </div>
+                <div class="col-3">
+                  <picture><source srcset="img/fybrid_post_6.webp" type="image/webp"><img width="100%" class="carousel_img" id="img_back_AS_2" src="img/fybrid_post_6.jpg" alt="ASTON"></picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+          <div class="mobile-carusel" id="gallery-img">
+            <a style="margin-left: 10vw;" href="img/fybrid_mobile_1.jpg" data-pswp-width="638" data-pswp-height="956"
+              target="_blank" class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_1.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_1.jpg" alt=''></picture>
+            </a>
+            <a href="img/fybrid_mobile_2.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_2.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_2.jpg" alt=''></picture>
+            </a>
+            <a href="img/fybrid_mobile_3.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_3.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_3.jpg" alt=''></picture>
+            </a>
+            <a href="img/fybrid_mobile_4.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_4.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_4.jpg" alt=''></picture>
+            </a>
+            <a href="img/fybrid_mobile_5.jpg" data-pswp-width="638" data-pswp-height="956" target="_blank"
+              class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_5.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_5.jpg" alt=''></picture>
+            </a>
+            <a style="margin-right: 10vw;" href="img/fybrid_mobile_6.jpg" data-pswp-width="638" data-pswp-height="956"
+              target="_blank" class="mobile-carusel-item">
+              <picture><source srcset="img/fybrid_mobile_6.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_mobile_6.jpg" alt=''></picture>
+            </a>
+        
+        
+          </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10">
+      
+          </div>
+        </div>
+      </div>
+        <div class="pg-1_bk_0">
+          <div class="container">
+          <div class="row justify-content-end align-items-center d-flex">
+            <h2>About</h2>
+            <div class="col-3 mob_off"></div>
+            <div class="col-6  mob_on justify-content-end align-items-center d-flex">
+              <p>"Fybrid Studio" is an elaborated design layout for a web studio. Aimed at demonstrating the capabilities and services of
+              the studio, this website stands as a testament to our dedication to creating exceptional digital solutions. Our
+              user-centric approach ensures that every aspect of the site is tailored for an optimal user experience.</p>
+            </div>
+            <div class="col-3 mob_off"></div>
+
+          </div>
+          </div>
+        </div>
+        <div class="task_model">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <h2>TASKS</h2>
+              </div>
+              <div class="col-8 info mob_on_full">
+                <ol>
+                  <li>
+                    User experience (UX) development:
+                    <ul><br>
+                      <li>Develop intuitiveness and ease of navigation, ensuring users can find information quickly. Improve interaction with site
+                      elements to enhance usability and minimize errors. Ensuring pages load quickly and the interface runs smoothly to
+                      improve user satisfaction.</li><br>
+                    </ul>
+                  </li>
+                  <li>
+                    Creating an attractive and modern user interface (UI):
+                    <ul><br>
+                      <li>To develop a website interface that is stylish and aesthetically pleasing and blends perfectly with the corporate
+                      identity . The use of modern trends and design elements allowed to create an original and unforgettable visual image of
+                      the site.</li><br>
+                    </ul>
+                  </li><br>
+                  <li>
+                    Increase of conversion rate:
+                    <ul><br>
+                      <li>Develop page layouts based on conversion-driven design principles to optimize successful user interactions such as
+                      orders, inquiries. Reinforce visually appealing elements that attract attention and motivate users to take desired
+                      actions.</li>
+                    </ul>
+                  </li><br>
+                  <li>
+                    Seamless multi-channel experience:
+                    <ul><br>
+                      <li>Develop a responsive and uniform user interface across devices to ensure a seamless experience from desktop and mobile.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="target_model">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2>Target audience ></h2>
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-2"></div>
+              <div class="col-6 mob_on_full">
+                <p>The target audience for "Fybrid Studio" comprises businesses and entrepreneurs looking to elevate their online presence
+                through cutting-edge web design and development. This demographic includes small to large enterprises across various
+                industries, such as e-commerce, technology, and creative agencies. They are typically aged 20-55 and are
+                forward-thinking individuals who understand the importance of a visually appealing and functional website in today's
+                digital landscape. "Fybrid Studio's" target audience values innovation in web design, user-friendly interfaces, and the
+                potential to enhance their online brand identity for greater customer engagement and growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="research container fybrid_research">
+            <div class="row">
+              <div class="col-6">
+                <h2>Reserarch</h2>
+              </div>
+              <div class="col-6"></div>
+            </div>
+            <div class="row">
+              <div class="col-6 mob_off_obj"></div>
+              <div class="col-6 img_as">
+                <p>In order to collect data for further analysis, it was necessary to understand what people's primary concerns are when
+                searching for web studios. The goal was to identify the main pain points and problems faced by users</p>
+              </div>
+            </div>
+          
+            <div class="row comments">
+              <div class="col-5 mob_on_obj">
+                <div class="avatar avatarCenter_mob">
+                  <picture><source srcset="img/fybrid_avatar.webp" type="image/webp"><img src="img/fybrid_avatar.jpg" alt=""></picture>
+                </div>
+                <p>"when I don't see the price, I feel a catch, like something's being hidden from me...."</p>
+              </div>
+              <div class="col-1 mob_off_obj"></div>
+              <div class="col-6 mob_on_obj">
+                <div class="avatar avatarLeft avatarCenter_mob">
+                  <picture><source srcset="img/fybrid_avatar_2.webp" type="image/webp"><img src="img/fybrid_avatar_2.jpg" alt=""></picture>
+                </div>
+                <p>"There are websites of web studios that look amazing but are not adapted to real life..."</p>
+              </div>
+          
+              <div class="col-5 mob_off_obj"></div>
+              <div class="col-5 mob_on_obj">
+                <div class="avatar avatarLeft avatarCenter_mob">
+                  <picture><source srcset="img/fybrid_avatar_3.webp" type="image/webp"><img src="img/fybrid_avatar_3.jpg" alt=""></picture>
+                </div>
+                <p>"It's funny to see web studios that don't even have a mobile version. And this is the main flow of traffic"</p>
+              </div>
+              <div class="col-2 mob_off_obj"></div>
+          
+              <div class="col-2 mob_off_obj"></div>
+              <div class="col-5 mob_on_obj">
+                <div class="avatar avatarCenter_mob">
+                  <picture><source srcset="img/fybrid_avatar_4.webp" type="image/webp"><img src="img/fybrid_avatar_4.jpg" alt=""></picture>
+                </div>
+                <p>"Going to web studios and seeing the prices I get scared and walk out"</p>
+              </div>
+              <div class="col-4 mob_off_obj"></div>
+          
+              <div class="justify-content-center d-flex w-100">
+          
+                <div class="col-5 mob_on_obj avatarCenter_last">
+                  <div class="avatar avatarCenter_mob ">
+                    <picture><source srcset="img/fybrid_avatar_5.webp" type="image/webp"><img src="img/fybrid_avatar_5.jpg" alt=""></picture>
+                  </div>
+                  <p>"I want to know how the development is going, it's important for me to control everything."</p>
+                </div>
+              </div>
+          
+          
+            </div>
+          </div>
+        <div class="userflow_model">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2>User Flow</h2>
+              </div>
+              <div class="justify-content-center d-flex">
+                <div class="col-9 mob_on_full" id="gallery-img">
+                  <picture><source srcset="img/fybrid_user-flow.webp" type="image/webp"><img src="img/fybrid_user-flow.jpg" class="des_off" alt=""></picture>
+                  <a href="img/fybrid_user-flow.jpg" data-pswp-width="1784" data-pswp-height="984" target="_blank"
+                    class="mobs_off">
+                    <picture><source srcset="img/fybrid_user-flow.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_user-flow.jpg" alt=''></picture>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home_model">
+          <div class="text">
+            <h2 style="opacity: 0.5;">HOME PAGE</h2>
+          </div>
+          <picture><source srcset="img/fybridS_home_page.webp" type="image/webp"><img width="100%" src="img/fybridS_home_page.jpg" alt=""></picture>
+        </div>
+        <div class="page_model container page_fyb">
+          <div class="row justify-content-center">
+            <div class="col-8 mob_on_full">
+              <picture><source srcset="img/Fybrid_ver.webp" type="image/webp"><img width="100%" src="img/Fybrid_ver.jpg" alt=""></picture>
+            </div>
+          </div>
+
+        </div>
+        <div class="page-fybrids">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <h2>LANDING PAGE</h2>
+                <h3>Main page - landing page</h3>
+                <picture><source srcset="img/fybrid_page_1.webp" type="image/webp"><img width="100%" src="img/fybrid_page_1.jpg" alt=""></picture>
+              </div>
+              <div class="col-10">
+                <h2>AUTHOR BLOG</h2>
+                <h3>Main page - autor blog</h3>
+                <picture><source srcset="img/fybrid_page_2.webp" type="image/webp"><img width="100%" src="img/fybrid_page_2.jpg" alt=""></picture>
+              </div>
+              <div class="col-10">
+                <h2>INDIVIDUAL PROJECT</h2>
+                <h3>Main page - ind. proj.</h3>
+                <picture><source srcset="img/fybrid_page_3.webp" type="image/webp"><img width="100%" src="img/fybrid_page_3.jpg" alt=""></picture>
+              </div>
+              <div class="col-10">
+                <h2>WEBSHOP</h2>
+                <h3>Main page - webshop</h3>
+                <picture><source srcset="img/fybrid_page_4.webp" type="image/webp"><img width="100%" src="img/fybrid_page_4.jpg" alt=""></picture>
+              </div>
+            </div>
+          </div>
+          <div class="back_obj"></div>
+        </div>
+        <div class="fybrid_next_cont">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-9 text-center">
+                <h2>NEXT CONTENT</h2>
+                <h3>important information</h3>
+                <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.9393 20.0607C14.5251 20.6464 15.4749 20.6464 16.0607 20.0607L25.6066 10.5147C26.1924 9.92893 26.1924 8.97918 25.6066 8.3934C25.0208 7.80761 24.0711 7.80761 23.4853 8.3934L15 16.8787L6.51472 8.3934C5.92893 7.80761 4.97918 7.80761 4.3934 8.3934C3.80761 8.97918 3.80761 9.92893 4.3934 10.5147L13.9393 20.0607ZM13.5 17V19H16.5V17H13.5Z" fill="#388739"/>
+                </svg>
+              </div>
+              <div class="col-9 mob_on_full">
+                <picture><source srcset="img/fybrid_next_con.webp" type="image/webp"><img width="100%" src="img/fybrid_next_con.jpg" alt=""></picture>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fybrid-mob_page container">
+          <div class="row">
+            <div class="col-12 text-center">
+                <h2>Mobile version</h2>
+                <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.9393 20.0607C14.5251 20.6464 15.4749 20.6464 16.0607 20.0607L25.6066 10.5147C26.1924 9.92893 26.1924 8.97918 25.6066 8.3934C25.0208 7.80761 24.0711 7.80761 23.4853 8.3934L15 16.8787L6.51472 8.3934C5.92893 7.80761 4.97918 7.80761 4.3934 8.3934C3.80761 8.97918 3.80761 9.92893 4.3934 10.5147L13.9393 20.0607ZM13.5 17V19H16.5V17H13.5Z" fill="black"/>
+                </svg>
+            </div>
+            <div class="col-9" id="gallery-img">
+                  <picture><source srcset="img/fybrid_post_5.webp" type="image/webp"><img width="100%"  class="carousel_img des_off" id="img_back_AS_2" src="img/fybrid_post_5.jpg" alt="ASTON"></picture>
+                <a href="img/fybrid_post_5.jpg" data-pswp-width="1784" data-pswp-height="890" target="_blank" class="mobs_off">
+                  <picture><source srcset="img/fybrid_post_5.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_post_5.jpg" alt=''></picture>
+                </a>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-9" id="gallery-img">
+              <picture><source srcset="img/fybrid_post_6.webp" type="image/webp"><img width="100%"  class="carousel_img des_off" id="img_back_AS_2" src="img/fybrid_post_6.jpg" alt="ASTON"></picture>
+                <a href="img/fybrid_post_5.jpg" data-pswp-width="1784" data-pswp-height="890" target="_blank" class="mobs_off">
+                  <picture><source srcset="img/fybrid_post_6.webp" type="image/webp"><img width="100%" class="mobile-carusel-item-img" src="img/fybrid_post_6.jpg" alt=''></picture>
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="pg-1_bk_3">
+          <div class="container fonts_colors_con font-fybrid">
+            <div class="row">
+              <div class="col-12">
+                <h2>COLOR <span>&</span> TYPOGRAPHY</h2>
+              </div>
+            </div>
+            <div class="row colors_box">
+              <div class="col-4 color_bl_1 bl_style" style="border-left: #000; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);">
+                <h3>#000000</h3>
+              </div>
+              <div class="col-4 color_bl_2 bl_style" style="background-color: #388739; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);">
+                <h3>#388739</h3>
+              </div>
+              <div class="col-4 color_bl_3 bl_style "
+                style="background-color: #ffffff; border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); border-top: solid black 2px; border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);">
+                <h3 style="color: rgb(66, 66, 66);">#ffffff</h3>
+              </div>
+              <div class="fonts_box_back">
+                <div class="fonts_box">
+                  <div class="row fonts_main_box">
+                    <div class="col-2">
+                      <h3>Fonts</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 main_font">
+                      <h3>Inter</h3>
+                    </div>
+                    <div class="col-12 font_letter">
+                      <h4>
+                        A B C D E F G H I J K L M N O P Q R D T U V W X Y Z
+                      </h4>
+                      <h4>
+                        a d c d e f g h i j k l m n o p q r d t u v w x y z
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="row color_site_box">
+        
+                    <div class="col-5 color_site color_bl_5" style="background-color: #D9D9D9;">
+                      <h3 style="color: #000;">#D9D9D9</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container memoji_text_last">
+            <div class="row text_plus">
+              <div class="col-12">
+                <h3>- The colors are chosen to show purity and elegance...</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pg-1_bk_41">
+          <div class="main_next_mob">
+            <div class="container">
+              <div class="row justify-content-center w-2">
+                <div class="col-10 position-relative">
+                  <h3 class="text-center">Next Project</h3>
+                <a href="index10.html">
+                  <picture><source srcset="img/rialust_main.webp" type="image/webp"><img id="img_main_8" class="mobile_pic" src="img/rialust_main.jpg" alt=""></picture>
+                </a>
+                  <div class="row row_info_main">
+                    <div class="col-6">
+                      <h2>RIAL UST</h2>
+                    </div>
+                    <div class="col-4">
+                      <a href="index7.html">
+                        <svg width="40%" height="40%" viewBox="0 0 30 16" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M29.7071 8.7071C30.0976 8.31658 30.0976 7.68341 29.7071 7.29289L23.3431 0.92893C22.9526 0.538405 22.3195 0.538405 21.9289 0.92893C21.5384 1.31945 21.5384 1.95262 21.9289 2.34314L27.5858 8L21.9289 13.6569C21.5384 14.0474 21.5384 14.6805 21.9289 15.0711C22.3195 15.4616 22.9526 15.4616 23.3431 15.0711L29.7071 8.7071ZM1.11539e-07 9L29 9L29 7L-1.11539e-07 7L1.11539e-07 9Z"
+                            fill="white" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="back_blur">
+                  <div class="position-relative">
+                    <span class="blur_obj blur_obj_rial"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+</body>
+
+
+
+
+
+
+
+<!-- <script src="https://cdn.blobity.dev/by.js?autoStart&licenseKey=...&_v=20230909135036"></script>
+  <script src="https://cdn.blobity.dev/by.js?_v=20230909135036"></script> -->
+
+
+
+
+
+
+
+
+
+
+<script src="files/script /swup.js?_v=20230909135036"></script>
+<script src="files/script /fast-image-zoom.js?_v=20230909135036"></script>
+
+<script src="files/script /tilt.js?_v=20230909135036"></script>
+<script type="module" src="files/script /script.js?_v=20230909135036"></script>
+
+
+
+<footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js?_v=20230909135036"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+</footer>
+
+</html>
