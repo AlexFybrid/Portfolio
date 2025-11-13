@@ -19,9 +19,9 @@ export function PageCheckMob() {
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
       }
-      if (homeanim === true) {
-        $('.scroll_box').addClass("scroll_box_anim")
-      }
+      // if (homeanim === true) {
+      //   $('.scroll_box').addClass("scroll_box_anim")
+      // }
       PageHomeScript();
     }
 
