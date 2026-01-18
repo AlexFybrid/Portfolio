@@ -42,6 +42,12 @@ export function PageCheckDesk() {
     1324: {
       slidesPerView: 3,
     },
+      2000: {
+      slidesPerView: 4,
+    },
+      2600: {
+      slidesPerView: 5,
+    },
   }
     
 });

@@ -23,6 +23,59 @@ export function PageCheckMob() {
       //   $('.scroll_box').addClass("scroll_box_anim")
       // }
       PageHomeScript();
+
+
+      const swiper = new Swiper('.swiper', {
+  spaceBetween: 0,
+  speed:10000,
+	direction: 'horizontal',
+  autoplay: {delay: 0},
+  loop: true,
+  slidesPerView: 1,
+  freeMode: true,
+  grabCursor: true,
+  
+  breakpoints: {
+    640: {
+      slidesPerView: 1.5,
+    },    
+    768: {
+      slidesPerView: 2,
+    },
+    1324: {
+      slidesPerView: 3,
+    },
+      2000: {
+      slidesPerView: 4,
+    },
+      2600: {
+      slidesPerView: 5,
+    },
+  }
+    
+});
+
+
+const swiper2 = new Swiper('.swiper2', {
+  spaceBetween: 0,
+  speed:9000,
+	direction: 'horizontal',
+  autoplay: {delay: 0},
+  loop: true,
+  slidesPerView: 1,
+  allowTouchMove: false,
+  freeMode: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 5,
+    },    
+
+    1324: {
+      slidesPerView: 7,
+    },
+  }
+    
+});
     }
 
 
