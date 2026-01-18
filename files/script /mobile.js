@@ -220,11 +220,11 @@ function PageHomeScript() {
   
   
   
-      setTimeout(() => {
+      // setTimeout(() => {
 
-          movenav();
+      //     movenav();
 
-      }, 700)
+      // }, 700)
 
       // swup.hooks.before('content:replace', () => {
       //   shouldMoveNav = false; 
