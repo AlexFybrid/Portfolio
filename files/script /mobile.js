@@ -196,7 +196,7 @@ function PageHomeScript() {
   shouldMoveNav = true; 
 
 
-        $('nav').css("transform", "translateX(20vw)")
+        // $('nav').css("transform", "translateX(20vw)")
 
 
 
