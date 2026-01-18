@@ -191,50 +191,50 @@ function RotateDevise() {
 
 
 
-function PageHomeScript() {
+// function PageHomeScript() {
 
-  shouldMoveNav = true; 
-
-
-        $('nav').css("transform", "translateX(20vw)")
+//   shouldMoveNav = true; 
 
 
+//         $('nav').css("transform", "translateX(20vw)")
 
 
 
 
 
-  function movenav() {
 
-    if (shouldMoveNav === false) return; 
-    window.onscroll = () => {
-          var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
-          if (scrollPercentage >= 3) {
-            $('nav').css("transform", "translateX(20vw)");
-          }
-          if (scrollPercentage >= 10) {
-            $('nav').css("transform", "translateX(0vw)");
-          }
-        }
-      }
+
+//   function movenav() {
+
+//     if (shouldMoveNav === false) return; 
+//     window.onscroll = () => {
+//           var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
+//           if (scrollPercentage >= 3) {
+//             $('nav').css("transform", "translateX(20vw)");
+//           }
+//           if (scrollPercentage >= 10) {
+//             $('nav').css("transform", "translateX(0vw)");
+//           }
+//         }
+//       }
   
   
   
-      setTimeout(() => {
+//       setTimeout(() => {
 
-          movenav();
+//           movenav();
 
-      }, 700)
+//       }, 700)
 
-      // swup.hooks.before('content:replace', () => {
-      //   shouldMoveNav = false; 
-      //   $('nav').css("transform", "translateX(0vw)");
-      // });
+//       // swup.hooks.before('content:replace', () => {
+//       //   shouldMoveNav = false; 
+//       //   $('nav').css("transform", "translateX(0vw)");
+//       // });
 
   
   
 
-};
+// };
 
 
 export function shouldMoveNavOff() {
