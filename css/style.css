@@ -4046,6 +4046,9 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   right: 5%;
     width: 40px;
 }
+.c-carousel__inner-wrapper{
+  display: block !important;
+}
 
   .start_text h1 {
     font-size: 3rem;
