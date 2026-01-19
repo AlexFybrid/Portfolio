@@ -4073,8 +4073,13 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   width: 45px;
   height: 40px;
 }
-.mini_works{
-  transform: scale(80%);
+.mini_works img{
+  width: 38px;
+  height: 38px;
+}
+.img_more{
+  width: 38px;
+  height: 38px;
 }
   .start_text h1 {
     font-size: revert;
