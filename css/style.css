@@ -4050,18 +4050,18 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   display: block !important;
 }
 .button_GIT{
-  padding: 4px 5px !important;
-  max-width: 170px !important;
+  padding: 8px 10px !important;
+  max-width: 190px !important;
 }
 .button_GIT .text{
   margin: 0px !important;
 }
 .button_GIT .text p{
-  font-size: small;
+  font-size: smaller;
 }
 .button_GIT svg{
   width: 45px;
-  height: 35px;
+  height: 40px;
 }
   .start_text h1 {
     font-size: 2.5rem;
