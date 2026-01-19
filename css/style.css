@@ -4049,7 +4049,16 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .c-carousel__inner-wrapper{
   display: block !important;
 }
-
+.button_GIT{
+  padding: 4px 4px !important;
+  max-width: 220px !important;
+}
+.button_GIT .text{
+  margin: 0px !important;
+}
+.button_GIT svg{
+  width: 60px;
+}
   .start_text h1 {
     font-size: 2.5rem;
   }
