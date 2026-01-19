@@ -4042,14 +4042,14 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 
 @media screen and (max-width: 600px) {
 .start_block .img_logo1{
-  top: 7%;
-  left: 2%;
-  width: 40px;
+  top: 6%;
+  left: 9%;
+  width: 26px;
 }
 .start_block .img_logo2{
-      top: -5%;
-  right: 5%;
-    width: 40px;
+      top: -3%;
+  right: 12%;
+    width: 26px;
 }
 .c-carousel__inner-wrapper{
   display: block !important;
@@ -4059,9 +4059,9 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   width: auto;
 }
 .button_GIT{
-  margin-top: 5px !important;
+  margin-top: 8px !important;
   padding: 8px 10px !important;
-  max-width: 190px !important;
+  max-width: 250px !important;
 }
 .button_GIT .text{
   margin: 0px !important;
