@@ -4062,6 +4062,13 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   font-size: smaller;
   width: auto;
 }
+.start_block{
+  height: min-content;
+  margin-top: 15vh;
+}
+.start_block_row{
+  padding-bottom: 0px;
+}
 .button_GIT{
   margin-top: 8px !important;
   padding: 5px 10px !important;
