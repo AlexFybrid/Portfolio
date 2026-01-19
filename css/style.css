@@ -4044,12 +4044,12 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .start_block .img_logo1{
   top: 6%;
   left: 9%;
-  width: 26px;
+  width: 20px;
 }
 .start_block .img_logo2{
       top: -3%;
   right: 12%;
-    width: 26px;
+    width: 20px;
 }
 .c-carousel__inner-wrapper{
   display: block !important;
