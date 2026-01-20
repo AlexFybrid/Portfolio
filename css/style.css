@@ -4050,6 +4050,10 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   left: 10%;
   width: 30px;
 }
+/* .c-carousel__inner-wrapper{
+  display: flex !important;
+
+} */
 .row_info_main .col-9{
   width: 70%;
 
@@ -4065,7 +4069,7 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .mobile_pic{
   height: 210px;
 }
-.c-carousel__inner-wrapper{
+.c-carousel__inner-wrapper1{
   display: block !important;
 }
 .start_text p{

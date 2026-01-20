@@ -24,7 +24,18 @@ export function PageCheckMob() {
       // }
       PageHomeScript();
 
+const swiper2 = new Swiper('.swiper2', {
+  spaceBetween: 0,
+  speed:9000,
+	direction: 'horizontal',
+  autoplay: {delay: 0},
+  loop: true,
+  slidesPerView: 3,
+  allowTouchMove: false,
+  freeMode: true,
 
+    
+});
     }
 
 
