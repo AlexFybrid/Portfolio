@@ -4050,10 +4050,20 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   left: 10%;
   width: 30px;
 }
+.row_info_main .col-9{
+  width: 70%;
+
+}
+.row_info_main .col-1{
+  width: 16%;
+}
 .start_block .img_logo2{
       top: -3%;
   right: 12%;
     width: 30px;
+}
+.mobile_pic{
+  height: 210px;
 }
 .c-carousel__inner-wrapper{
   display: block !important;
