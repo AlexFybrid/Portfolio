@@ -4072,6 +4072,9 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .c-carousel__inner-wrapper1{
   display: block !important;
 }
+.c-carousel-mob{
+  width: 90% !important;
+}
 .start_text p{
   font-size: smaller;
   width: auto;

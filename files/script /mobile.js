@@ -30,7 +30,7 @@ const swiper2 = new Swiper('.swiper2', {
 	direction: 'horizontal',
   autoplay: {delay: 0},
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 5,
   allowTouchMove: false,
   freeMode: true,
 
