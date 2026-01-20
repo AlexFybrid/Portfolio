@@ -4069,6 +4069,14 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .mobile_pic{
   height: 210px;
 }
+.text_block_cc h2,
+.text_block_cc p {
+  font-size: xx-large;
+  width: 380px;
+}
+.brands_block{
+  margin-bottom: 10px;
+}
 .c-carousel__inner-wrapper1{
   display: block !important;
 }
