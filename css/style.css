@@ -106,6 +106,9 @@ a:active img {
   transition: 0.35s;
   background-color: white;
 }
+.f-panzoom__content{
+  border-radius: 40px;
+}
 #bt_work{
   transition: 0.2s;
 }
@@ -3404,7 +3407,7 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 }
 
 .mobile-carusel-item-img {
-  border-radius: 9% !important;
+  border-radius: 20px !important;
 }
 
 .pswp__img {
