@@ -44,7 +44,9 @@ const swiper2 = new Swiper('.swiper2', {
     if ($('#page').hasClass('pagework')) {
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
-      }if ($('#page').hasClass('page1')) {
+      }
+
+            if ($('#page').hasClass('page1')) {
         $('#bt_work').css('opacity', '0');
         setTimeout(() => {
           $('#bt_work').text('Work');
@@ -142,6 +144,7 @@ const swiper2 = new Swiper('.swiper2', {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
+      
       Page2workScript();
 
     }
