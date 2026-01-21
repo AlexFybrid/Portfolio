@@ -174,6 +174,7 @@ function mobileCheck() {
         swup.hooks.on('animation:out:end', () => {
           if ($('#page').hasClass('page1')) {
             shouldMoveNavOff();
+            
           }
         });
       })
@@ -181,6 +182,11 @@ function mobileCheck() {
       mobile = false;
       // PageCheck();
     import('./desk.js')
+
+
+
+
+
       .then(module => {
         const { PageCheckDesk } = module; 
         const { miniPrewStop } = module; 
@@ -201,6 +207,7 @@ function mobileCheck() {
           if ($('#page').hasClass('pagework')) {
             scrollOff();
           }
+          
         });
       })
     
@@ -316,9 +323,6 @@ lightbox.on('close', () => {
 });
 
 export default lightbox;
-
-
-
 
 
 

@@ -21,58 +21,59 @@ export function PageCheckDesk() {
       }
       // PageHomeScript();
 
+setTimeout(() => {
+  const swiper = new Swiper('.swiper', {
+spaceBetween: 0,
+speed:10000,
+direction: 'horizontal',
+autoplay: {delay: 0},
+loop: true,
+slidesPerView: 1,
+freeMode: true,
+grabCursor: true,
 
-      const swiper = new Swiper('.swiper', {
-  spaceBetween: 0,
-  speed:10000,
-	direction: 'horizontal',
-  autoplay: {delay: 0},
-  loop: true,
-  slidesPerView: 1,
-  freeMode: true,
-  grabCursor: true,
-  
-  breakpoints: {
-    640: {
-      slidesPerView: 1.5,
-    },    
-    768: {
-      slidesPerView: 2,
-    },
-    1324: {
-      slidesPerView: 3,
-    },
-      2000: {
-      slidesPerView: 4,
-    },
-      2600: {
-      slidesPerView: 5,
-    },
-  }
-    
+breakpoints: {
+640: {
+  slidesPerView: 1.5,
+},    
+768: {
+  slidesPerView: 2,
+},
+1324: {
+  slidesPerView: 3,
+},
+  2000: {
+  slidesPerView: 4,
+},
+  2600: {
+  slidesPerView: 5,
+},
+}
+
 });
 
 
 const swiper2 = new Swiper('.swiper2', {
-  spaceBetween: 0,
-  speed:9000,
-	direction: 'horizontal',
-  autoplay: {delay: 0},
-  loop: true,
-  slidesPerView: 1,
-  allowTouchMove: false,
-  freeMode: true,
-  breakpoints: {
-    640: {
-      slidesPerView: 5,
-    },    
+spaceBetween: 0,
+speed:9000,
+direction: 'horizontal',
+autoplay: {delay: 0},
+loop: true,
+slidesPerView: 1,
+allowTouchMove: false,
+freeMode: true,
+breakpoints: {
+640: {
+  slidesPerView: 5,
+},    
 
-    1324: {
-      slidesPerView: 7,
-    },
-  }
-    
+1324: {
+  slidesPerView: 7,
+},
+}
+
 });
+}, 20);
 
     }
 
@@ -81,6 +82,105 @@ const swiper2 = new Swiper('.swiper2', {
 
     if ($('#page').hasClass('pagework')) {
       imageZoom();
+
+      if ($('#page').hasClass('page1')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Work');
+        $('#bt_work').css('opacity', '1');
+        $(".back_bt_nav").removeClass("back_bt_nav2");
+        }, 200);
+
+      }
+
+      if ($('#page').hasClass('page3')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Friesa');
+        $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page4')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Aston');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page7')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Model');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+            if ($('#page').hasClass('page7')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Model');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+     if ($('#page').hasClass('page12')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Course');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page15')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Ogo-AI');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page14')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Avto');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page17')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Victron');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page10')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Rial Ust');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page11')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Ekfood');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page16')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Maria');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
 
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
@@ -93,6 +193,15 @@ const swiper2 = new Swiper('.swiper2', {
 
 
     if ($('#page').hasClass('pageabout')) {
+
+
+        setTimeout(() => {
+          $('#bt_work').text('Work');
+        $('#bt_work').css('opacity', '1');
+        $(".back_bt_nav").removeClass("back_bt_nav2");
+        }, 200);
+
+
       window.scrollTo(0, 0);
       
 
