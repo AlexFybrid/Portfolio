@@ -3257,7 +3257,8 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 100dvh;
   width: 100vw;
   transition: 0.6s;
   z-index: 1;
