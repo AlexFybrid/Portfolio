@@ -2,7 +2,9 @@
 var homeanim = null;
 var mobile = null;
 
-
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
 
 const swup = new Swup({
   plugins: [new SwupFadeTheme(),
