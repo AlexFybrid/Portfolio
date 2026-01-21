@@ -19,15 +19,6 @@ export function PageCheckMob() {
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
       }
-                  if ($('#page').hasClass('page1')) {
-        $('#bt_work').css('opacity', '0');
-        setTimeout(() => {
-          $('#bt_work').text('Work');
-        $('#bt_work').css('opacity', '1');
-        $(".back_bt_nav").removeClass("back_bt_nav2");
-        }, 200);
-
-      }
       // if (homeanim === true) {
       //   $('.scroll_box').addClass("scroll_box_anim")
       // }
@@ -78,7 +69,15 @@ const swiper2 = new Swiper('.swiper2', {
         $('.select_nav').removeClass('select_about')
       }
 
+                  if ($('#page').hasClass('page1')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Work');
+        $('#bt_work').css('opacity', '1');
+        $(".back_bt_nav").removeClass("back_bt_nav2");
+        }, 200);
 
+      }
       if ($('#page').hasClass('page3')) {
         $('#bt_work').css('opacity', '0');
         setTimeout(() => {
