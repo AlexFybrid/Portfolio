@@ -6,7 +6,7 @@ var mobileRotate = false;
 var shouldMoveNav = true; 
 
 
-import lightbox from './script.js';
+// import lightbox from './script.js';
 
 
 
