@@ -17,7 +17,7 @@ function preload() {
     const preloader = document.getElementById('preloader');
     const progressBar = document.querySelector('.progresss');
     const queue = new createjs.LoadQueue();
-    $('.backgraund_bar_box').css('background-color','#1c1c1c')
+    $('.backgraund_bar_box').css('background-color','#ffffffff')
 
 
     queue.addEventListener('progress', function (event) {
