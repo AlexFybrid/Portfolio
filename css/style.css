@@ -1262,7 +1262,7 @@ padding-bottom: 0px !important;
 overflow: hidden;
 }
 .UXUI_block img{
-  width: 130%;
+  width: 119.5%;
 }
 .Offline_block{
   margin-top: calc(var(--bs-gutter-x) * .5);
@@ -1271,6 +1271,23 @@ overflow: hidden;
 
 .Offline_block img{
 margin-bottom: -50px;
+}
+.block_filter{
+  padding: 4px;
+  width: min-content !important;
+  padding-bottom: 0px;
+  background-color: #eeeeee;
+  border-radius: 30px;
+  color: #6a6a6a;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 10px !important;
+  
+}
+.block_filter h6{
+  white-space: nowrap;
+  font-size: smaller;
 }
 .actibvbt{
   display: flex;
@@ -4080,6 +4097,19 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   display: flex !important;
 
 } */
+ .creo_mini{
+  transform: scale(130%);
+ }
+.button_GIT2_block{
+  display: flex;
+  justify-content: center;
+}
+ .img_board{
+  width: 170%;
+ }
+.imgux_block{
+  height: 250px;
+ }
 .row_info_main .col-9{
   width: 70%;
 
@@ -4145,8 +4175,11 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   width: 45px;
   height: 40px;
 }
+.quote{
+  margin-top: 0px !important;
+}
 .button_GIT2{
-  margin-top: 8px !important;
+  margin-top: 28px !important;
   padding: 5px 10px !important;
   width: 100%;
   max-width: 290px !important;
