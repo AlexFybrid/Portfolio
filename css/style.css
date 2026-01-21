@@ -1257,12 +1257,12 @@ background-color: white;
 border-radius: 25px;
 padding: 40px !important;
 border: 1px solid #e3e3e3;
-height: 48.2%;
+height: 100%;
 padding-bottom: 0px !important;
 overflow: hidden;
 }
 .UXUI_block img{
-  width: 100%;
+  width: 130%;
 }
 .Offline_block{
   margin-top: calc(var(--bs-gutter-x) * .5);
@@ -1292,6 +1292,19 @@ margin-bottom: -50px;
   color: #cecece;
 }
 .button_GIT2{
+  background-color: #151619;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: min-content;
+  max-width: 300px !important;
+  text-decoration: none;
+  padding: 2px 5px !important;
+  margin-top: 30px !important;
+  box-shadow: #000 0px 11px 20px -8px;
+  position: relative;
+  z-index: 2;
   margin-top: 0px !important;
   background-color: white;
   width: 300px;
@@ -1303,6 +1316,18 @@ margin-bottom: -50px;
 .button_GIT2 p{
   color: #000 !important;
 
+}
+.button_GIT2 .text{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+margin: 20px 0px 20px 30px;
+height: 100%;
+width: 100%;
+}
+.button_GIT2 .text p{
+  margin-bottom: 0px;
+  color: white;
 }
 .quote{
   margin-top: 200px !important;
@@ -4074,6 +4099,16 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   font-size: xx-large;
   width: 380px;
 }
+.button_GIT2{
+  max-width: max-content !important;
+}
+.action_block{
+  display: block;
+  padding: 20px 10px 20px 40px !important;
+}
+.actibvbt .col-9{
+  width: 90%;
+}
 .brands_block{
   margin-bottom: 10px;
 }
@@ -4109,6 +4144,22 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
   width: 45px;
   height: 40px;
 }
+.button_GIT2{
+  margin-top: 8px !important;
+  padding: 5px 10px !important;
+  width: 100%;
+  max-width: 290px !important;
+}
+.button_GIT2 .text{
+  margin: 0px !important;
+}
+.button_GIT2 .text p{
+  font-size: smaller;
+}
+.button_GIT2 svg{
+  width: 45px;
+  height: 40px;
+}
 .mini_works img{
   width: 39px;
   height: 39px;
@@ -4138,11 +4189,20 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
     margin-top: 50px;
     font-size: 3rem;
   }
-
+  .UXUI_block{
+    width: 96% !important;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
   .page_model .row-2 {
     margin-top: -200px;
   }
-
+  .quote h3{
+    font-size: initial;
+  }
+    .quote .col-6{
+      width: 80%;
+    }
   .page_model {
     margin-top: -50px;
   }
