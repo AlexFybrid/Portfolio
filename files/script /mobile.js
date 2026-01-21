@@ -42,6 +42,27 @@ const swiper2 = new Swiper('.swiper2', {
 
 
     if ($('#page').hasClass('pagework')) {
+      setTimeout(() => {
+      Fancybox.bind("[data-fancybox]", {
+        Hash: false,
+          Carousel: {
+    Thumbs: false,
+    Navigation: false,
+        Toolbar: {
+      display: {
+        left: [],
+        middle: [],
+        right: [],
+      },
+    }
+
+  },
+  
+        // Your custom options
+        
+      });
+}, 10);
+
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
       }
@@ -311,26 +332,7 @@ export function shouldMoveNavOff() {
 
 
 function Page2workScript() {
-setTimeout(() => {
-      Fancybox.bind("[data-fancybox]", {
-        Hash: false,
-          Carousel: {
-    Thumbs: false,
-    Navigation: false,
-        Toolbar: {
-      display: {
-        left: [],
-        middle: [],
-        right: [],
-      },
-    }
 
-  },
-  
-        // Your custom options
-        
-      });
-}, 10);
   $('#my-video').remove();
 
 
