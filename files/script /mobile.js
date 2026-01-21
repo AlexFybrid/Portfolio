@@ -144,7 +144,7 @@ const swiper2 = new Swiper('.swiper2', {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
-      
+
       Page2workScript();
 
     }
@@ -156,7 +156,11 @@ const swiper2 = new Swiper('.swiper2', {
     if ($('#page').hasClass('pageabout')) {
       $('.select_nav').addClass('select_about')
       AboutScript();
-
+        setTimeout(() => {
+          $('#bt_work').text('Work');
+        $('#bt_work').css('opacity', '1');
+        $(".back_bt_nav").removeClass("back_bt_nav2");
+        }, 200);
     }
   })
 }
