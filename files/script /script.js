@@ -12,7 +12,6 @@ const swup = new Swup({
   ],
 });
 
-
 //Performance >
 function preload() {
   document.addEventListener('DOMContentLoaded', function () {

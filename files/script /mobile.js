@@ -312,7 +312,24 @@ export function shouldMoveNavOff() {
 
 function Page2workScript() {
 setTimeout(() => {
-    lightbox.init();
+      Fancybox.bind("[data-fancybox]", {
+        Hash: false,
+          Carousel: {
+    Thumbs: false,
+    Navigation: false,
+        Toolbar: {
+      display: {
+        left: [],
+        middle: [],
+        right: [],
+      },
+    }
+
+  },
+  
+        // Your custom options
+        
+      });
 }, 10);
   $('#my-video').remove();
 
