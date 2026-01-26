@@ -2123,6 +2123,12 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .imgbox_inver{
   background-color: #d94b0f !important;
 }
+.imgbox_creo{
+  background-color: #F1F4F8 !important;
+}
+.imgbox_creo img{
+    width: 90% !important;
+}
 .imgbox_maria img {
   width: 70% !important;
 }
