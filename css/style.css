@@ -803,8 +803,12 @@ html.is-animating .transition-fade2 {
   color: #21ffa7;
   font-weight: 600;
 }
+
 .Duster_scene{
-      background-color: #020203;
+      background-color: #e6a007;
+}
+.Duster_scene h3{
+  color: #554302;
 }
 .Creo_header{
   font-family: "Montserrat", sans-serif;
@@ -818,6 +822,9 @@ html.is-animating .transition-fade2 {
 }
 .Scene_skoda .row img{
     max-width: 1300px !important;
+}
+.Creos_mob{
+  background-color: #a62530 !important;
 }
 .friesa_mac .row img {
   -o-object-fit: cover;
