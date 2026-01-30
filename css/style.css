@@ -793,7 +793,32 @@ html.is-animating .transition-fade2 {
 .friesa_mac {
   background-color: #ececec;
 }
-
+.Scene_skoda{
+  padding: 200px 0px;
+    background-color: #00382d;
+}
+.Scene_skoda h3{
+    font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  color: #21ffa7;
+  font-weight: 600;
+}
+.Duster_scene{
+      background-color: #020203;
+}
+.Creo_header{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.Scene_skoda h4{
+    font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+    font-weight: 200;
+}
+.Scene_skoda .row img{
+    max-width: 1300px !important;
+}
 .friesa_mac .row img {
   -o-object-fit: cover;
      object-fit: cover;
