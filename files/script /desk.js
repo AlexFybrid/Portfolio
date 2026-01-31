@@ -77,7 +77,49 @@ breakpoints: {
 
     }
 
+    if ($('#page').hasClass('pagework')) {
+const swiper3 = new Swiper('.swiper2', {
+  spaceBetween: 0,
+  speed:9000,
+	direction: 'horizontal',
+  autoplay: {delay: 0},
+  loop: true,
+  slidesPerView: 5,
+  allowTouchMove: false,
+  freeMode: true,
 
+    
+});
+  const swiper = new Swiper('.swiper', {
+spaceBetween: 0,
+speed:10000,
+direction: 'horizontal',
+autoplay: {delay: 0},
+loop: true,
+slidesPerView: 1,
+freeMode: true,
+grabCursor: true,
+
+breakpoints: {
+640: {
+  slidesPerView: 1.5,
+},    
+768: {
+  slidesPerView: 2,
+},
+1324: {
+  slidesPerView: 3,
+},
+  2000: {
+  slidesPerView: 4,
+},
+  2600: {
+  slidesPerView: 5,
+},
+}
+
+});
+    }
 
 
     if ($('#page').hasClass('pagework')) {

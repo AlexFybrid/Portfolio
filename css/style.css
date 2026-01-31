@@ -826,6 +826,22 @@ html.is-animating .transition-fade2 {
 .Creos_mob{
   background-color: #a62530 !important;
 }
+.bosch_scene{
+  padding-top: 80px;
+    background-color: #3182db !important;
+}
+.bosch_scene h3 {
+  color: #104c8e;
+}
+.bosch_scene h5{
+  width: 700px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #e5effa;
+  text-align: center;
+    font-weight: 300;
+}
+
 .friesa_mac .row img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1215,6 +1231,16 @@ pointer-events: none;
   
 }
 .brands_block .swiper2{
+  overflow: hidden;
+    mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,   /* Полностью прозрачный слева */
+    rgba(0, 0, 0, 1) 15%,  /* Полностью непрозрачный от 15% */
+    rgba(0, 0, 0, 1) 85%,  /* Полностью непрозрачный до 85% */
+    rgba(0, 0, 0, 0) 100%  /* Полностью прозрачный справа */
+  );
+}
+.brands_block .swiper3{
   overflow: hidden;
     mask-image: linear-gradient(
     to right,
