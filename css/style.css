@@ -1334,7 +1334,9 @@ padding: 0px 10px;
   font-weight: 600;
   color: #98ADD7;
 }
-
+.categories_block h5{
+  color: #5e5e5e;
+}
 .UXUI_block, .Visual_block, .Offline_block{
 background-color: white;
 border-radius: 25px;
@@ -4327,7 +4329,8 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
     margin-top: 50px;
     font-size: 3rem;
   }
-  .UXUI_block{
+
+.UXUI_block{
     width: 96% !important;
     margin-right: 2%;
     margin-left: 2%;
