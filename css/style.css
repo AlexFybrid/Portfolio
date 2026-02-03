@@ -2250,7 +2250,6 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 
 .main_next_mob h3 {
   font-size: 2.3rem;
-  padding-bottom: 50px;
 }
 
 .main_next_mob .col-10 {
@@ -4214,8 +4213,21 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .mobile_pic{
   height: 210px;
 }
-.pg-1_bk_2 li{
-  font-size: smaller;
+.Scene_skoda h3{
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+.Scene_skoda h4{
+  font-size: 2rem;
+}
+.bosch_scene h5{
+  font-size: medium;
+}
+.friesa_mac .row img{
+  transform: scale(130%);
+  position: relative;
+  z-index:0;
 }
 .text_block_cc h2,
 .text_block_cc p {
