@@ -841,7 +841,54 @@ html.is-animating .transition-fade2 {
   text-align: center;
     font-weight: 300;
 }
+.Electro_main{
+      background-color: #ededed !important;
+      max-width: none !important;
 
+}
+.Electro_main h3{
+    color: #523f31 !important;
+    font-size: 60px;
+    font-weight: 600;
+}
+.Electro_main h4{
+    color: #523f31 !important;
+    font-weight: 300;
+}
+.Electro_main img{
+        max-width: none !important;
+
+}
+.Kardian_main{
+        background-color: #d74e00 !important;
+}
+.Kardian_main h3{
+  color: #1a1a1a !important;
+}
+.Kardian_main h4{
+    color: #1a1a1a !important;
+    font-weight: 300;
+}
+.Kardian_main img{
+        max-width: none !important;
+}
+.jumper_main{
+    background-color: #6287bb !important;
+    max-width: none !important;
+
+}
+.jumper_main h3{
+    color: #2f3b5c !important;
+    font-size: 60px;
+    font-weight: 600;
+}
+.jumper_main h4{
+    color: #2f3b5c !important;
+    font-weight: 300;
+}
+.jumper_main img{
+        max-width: none !important;
+}
 .friesa_mac .row img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -4299,6 +4346,10 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 .button_GIT2 svg{
   width: 45px;
   height: 40px;
+}
+.imgbox_creo_billboard {
+  width: 130% !important;
+  left: -130px;
 }
 .mini_works img{
   width: 39px;
