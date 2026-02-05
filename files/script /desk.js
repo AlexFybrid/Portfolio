@@ -223,7 +223,23 @@ breakpoints: {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
+      if ($('#page').hasClass('page18')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Ad’s');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
 
+      }
+      if ($('#page').hasClass('page19')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Board');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
       }
