@@ -913,7 +913,15 @@ html.is-animating .transition-fade2 {
   display: flex;
   background: radial-gradient(50% 50% at 50% 50%, #252424 0%, #060606 100%);
 }
-
+.card_main{
+  background-color: #b43333;
+}
+.card_main_2{
+  background-color: #c7c7c7;
+}
+.card_main_3{
+  background-color: #c8c8c8 !important;
+}
 .frisa_interface img {
   -o-object-fit: cover;
      object-fit: cover;
