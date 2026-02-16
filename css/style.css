@@ -797,6 +797,9 @@ html.is-animating .transition-fade2 {
   padding: 200px 0px;
     background-color: #00382d;
 }
+.Scene_kia h3{
+color: #fff !important;
+}
 .Scene_skoda h3{
     font-family: "Montserrat", sans-serif;
   font-size: 80px;
@@ -2243,6 +2246,12 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(19, 80, 60, 1)
 }
 .imgbox_creo_book{
 background-color: #cdcdcd !important;
+}
+.imgbox_reno{
+background-color: #e99800;
+}
+.imgbox_reno img{
+  width: 65% !important;
 }
 .imgbox_creo img{
     width: 90% !important;
@@ -4273,6 +4282,7 @@ background-color: #cdcdcd !important;
 .mobile_pic{
   height: 210px;
 }
+
 .Scene_skoda h3{
   font-size: 2.5rem;
   position: relative;

@@ -240,6 +240,14 @@ breakpoints: {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
+      if ($('#page').hasClass('page20')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Print');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
       if ($('.select_nav').hasClass('select_about')) {
         $('.select_nav').removeClass('select_about')
       }
