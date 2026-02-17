@@ -446,7 +446,7 @@ function AboutScript() {
 
         const cubePosition = (scrollPosition / maxScrollPosition) * (windowHeight - (0.72 * windowHeight));
 
-        const cubePosition2 = (scrollPosition / maxScrollPosition) * (windowHeight - (0.40 * windowHeight));
+        const cubePosition2 = (scrollPosition / maxScrollPosition) * (windowHeight - (0.28 * windowHeight));
 
         document.querySelector('.box_back').style.transform = `matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, ${cubePosition}, 0, 1)`;
         document.querySelector('.text_min_bar').style.transform = `matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -${cubePosition2}, 0, 1)`;
