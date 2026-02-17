@@ -862,8 +862,15 @@ color: #fff !important;
         max-width: none !important;
 
 }
+.CiT_main h3,h4{
+  position: relative;
+  z-index: 1;
+}
 .Kardian_main{
         background-color: #d74e00 !important;
+}
+.ford_main{
+  background-color: #0057cd !important;
 }
 .Kardian_main h3{
   color: #1a1a1a !important;
@@ -875,11 +882,28 @@ color: #fff !important;
 .Kardian_main img{
         max-width: none !important;
 }
+.mvs_main{
+  background-color: #0c965f !important;
+  max-width: none !important;
+}
+.mvs_main img{
+        max-width: none !important;
+}
 .jumper_main{
     background-color: #6287bb !important;
     max-width: none !important;
 
 }
+.mvs_main h3{
+    color: #ffffff !important;
+    font-size: 60px;
+    font-weight: 600;
+}
+.mvs_main h4{
+    color: #ffffff !important;
+    font-weight: 300;
+}
+
 .jumper_main h3{
     color: #2f3b5c !important;
     font-size: 60px;
@@ -4299,6 +4323,9 @@ background-color: #e99800;
   position: relative;
   z-index:0;
 }
+.ford_main .row img{
+  transform: scale(200%) !important; 
+}
 .text_block_cc h2,
 .text_block_cc p {
   font-size: xx-large;
@@ -4371,6 +4398,10 @@ background-color: #e99800;
 .imgbox_creo_billboard {
   width: 130% !important;
   left: -130px;
+}
+.imgbox_reno{
+    width: 145% !important;
+      left: 0px !important;
 }
 .mini_works img{
   width: 39px;
