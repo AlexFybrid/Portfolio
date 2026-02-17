@@ -4091,8 +4091,13 @@ background-color: #e99800;
 
   .friesa_mac h2 {
     font-size: 4rem !important;
+    position: relative;
+    z-index: 1;
   }
-
+.friesa_mac h3,h4{
+  position: relative;
+  z-index: 1;
+}
   .friesa_mob {
     padding-top: 100px;
   }
