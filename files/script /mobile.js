@@ -187,6 +187,14 @@ const swiper3 = new Swiper('.swiper3', {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
+      if ($('#page').hasClass('page21')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Livery');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
 
       Page2workScript();
 

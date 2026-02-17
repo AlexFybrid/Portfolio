@@ -96,7 +96,9 @@ a:hover img {
 a:active img {
   filter: brightness(100%);
 }
+.carousel_img{
 
+}
 .select_nav {
   position: absolute;
   border-radius: 35px;

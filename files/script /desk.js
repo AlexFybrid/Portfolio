@@ -123,6 +123,7 @@ breakpoints: {
 
 
     if ($('#page').hasClass('pagework')) {
+      
       imageZoom();
 
       if ($('#page').hasClass('page1')) {
@@ -244,6 +245,14 @@ breakpoints: {
         $('#bt_work').css('opacity', '0');
         setTimeout(() => {
           $('#bt_work').text('Print');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
+      if ($('#page').hasClass('page21')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Livery');
           $('#bt_work').css('opacity', '1');
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);

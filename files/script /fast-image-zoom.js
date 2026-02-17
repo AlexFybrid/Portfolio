@@ -32,7 +32,9 @@ var imageZoom = (function () {
 		position: relative;
 		z-index: 99999;
 		cursor: zoom-out;
+
 	}
+		
 `;
 
 	const debounce = (f, ms) => {
