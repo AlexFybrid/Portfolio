@@ -2350,6 +2350,9 @@ background-color: #e99800;
   font-size: 1.75rem;
 }
 
+.main-section h5{
+  font-size: 1rem;
+}
 .main_next_mob .col-10 {
   z-index: 1;
 }
@@ -4290,6 +4293,7 @@ background-color: #e99800;
 } */
  .creo_mini{
   transform: scale(130%);
+  padding-left: 22px;
  }
 .button_GIT2_block{
   display: flex;
