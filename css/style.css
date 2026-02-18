@@ -4349,6 +4349,7 @@ background-color: #e99800;
 .Electro_main h3,.jumper_main h3,.CiT_main h3{
   padding-top: 50px;
     font-size: 1.9rem;
+    text-align: center;
 }
 .Electro_main h4,.jumper_main h4,.CiT_main h4{
   font-size: 1.7rem;
