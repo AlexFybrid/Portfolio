@@ -182,6 +182,14 @@ const swiper2 = new Swiper('.swiper2', {
           $(".back_bt_nav").addClass("back_bt_nav2");
         }, 200);
       }
+            if ($('#page').hasClass('page19')) {
+        $('#bt_work').css('opacity', '0');
+        setTimeout(() => {
+          $('#bt_work').text('Board');
+          $('#bt_work').css('opacity', '1');
+          $(".back_bt_nav").addClass("back_bt_nav2");
+        }, 200);
+      }
             if ($('#page').hasClass('page20')) {
         $('#bt_work').css('opacity', '0');
         setTimeout(() => {
