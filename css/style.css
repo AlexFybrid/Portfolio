@@ -796,7 +796,7 @@ html.is-animating .transition-fade2 {
   background-color: #ececec;
 }
 .Scene_skoda{
-  padding: 200px 0px;
+  padding: 170px 0px;
     background-color: #00382d;
 }
 .Scene_kia h3{
@@ -950,6 +950,9 @@ color: #fff !important;
 }
 .card_main_3{
   background-color: #c8c8c8 !important;
+}
+.card_main_3 h3{
+  font-size: 2rem;
 }
 .frisa_interface img {
   -o-object-fit: cover;
@@ -3899,9 +3902,9 @@ background-color: #e99800;
     padding: 0px 10px !important;
   }
 
-  .mob_on2 {
+  /* .mob_on2 {
     width: 80% !important;
-  }
+  } */
 
   .mob_on3 {
     width: 40% !important;
@@ -4315,12 +4318,12 @@ background-color: #e99800;
 }
 
 .Scene_skoda h3{
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   position: relative;
   z-index: 2;
 }
 .Scene_skoda h4{
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .bosch_scene h5{
   font-size: medium;
