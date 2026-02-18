@@ -4334,6 +4334,11 @@ background-color: #e99800;
   left: -40%;
   margin-bottom: -100px;
 }
+.citroen_img2{
+  width: 130%;
+  left: -20%;
+  margin-bottom: -80px;
+}
 .ford_main h3{
   padding-top: 120px;
   font-size: 1.75rem;
@@ -4375,7 +4380,7 @@ background-color: #e99800;
 }
 .action_block{
   display: block;
-  padding: 20px 10px 20px 40px !important;
+  padding: 30px 10px 30px 20px !important;
 }
 .actibvbt .col-9{
   width: 90%;
