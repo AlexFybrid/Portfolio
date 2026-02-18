@@ -53,6 +53,12 @@ breakpoints: {
 });
 
 
+
+}, 20);
+
+    }
+
+    if ($('#page').hasClass('pagework')) {
 const swiper2 = new Swiper('.swiper2', {
 spaceBetween: 0,
 speed:9000,
@@ -73,23 +79,6 @@ breakpoints: {
 }
 
 });
-}, 20);
-
-    }
-
-    if ($('#page').hasClass('pagework')) {
-// const swiper3 = new Swiper('.swiper2', {
-//   spaceBetween: 0,
-//   speed:9000,
-// 	direction: 'horizontal',
-//   autoplay: {delay: 0},
-//   loop: true,
-//   slidesPerView: 5,
-//   allowTouchMove: false,
-//   freeMode: true,
-
-    
-// });
   const swiper = new Swiper('.swiper', {
 spaceBetween: 0,
 speed:10000,
