@@ -39,22 +39,12 @@ const swiper2 = new Swiper('.swiper2', {
     }
 
     if ($('#page').hasClass('page18')) {
-const swiper3 = new Swiper('.swiper3', {
-  spaceBetween: 0,
-  speed:9000,
-	direction: 'horizontal',
-  autoplay: {delay: 0},
-  loop: true,
-  slidesPerView: 5,
-  allowTouchMove: false,
-  freeMode: true,
 
-    
-});
     }
 
 
     if ($('#page').hasClass('pagework')) {
+      
       setTimeout(() => {
       Fancybox.bind("[data-fancybox]", {
         Hash: false,
@@ -76,6 +66,19 @@ const swiper3 = new Swiper('.swiper3', {
         // Your custom options
         
       });
+      
+      const swiper3 = new Swiper('.swiper2', {
+  spaceBetween: 0,
+  speed:9000,
+	direction: 'horizontal',
+  autoplay: {delay: 0},
+  loop: true,
+  slidesPerView: 5,
+  allowTouchMove: false,
+  freeMode: true,
+
+    
+});
 }, 10);
 
       if ($('.select_nav').hasClass('select_about')) {

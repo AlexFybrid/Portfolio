@@ -4318,7 +4318,7 @@ background-color: #e99800;
 }
 
 .Scene_skoda h3{
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   position: relative;
   z-index: 2;
 }
@@ -4406,8 +4406,8 @@ background-color: #e99800;
   height: 40px;
 }
 .imgbox_creo_billboard {
-  width: 130% !important;
-  left: -130px;
+  width: 160% !important;
+  left: 0px;
 }
 .imgbox_reno{
     width: 145% !important;

@@ -78,18 +78,18 @@ breakpoints: {
     }
 
     if ($('#page').hasClass('pagework')) {
-const swiper3 = new Swiper('.swiper2', {
-  spaceBetween: 0,
-  speed:9000,
-	direction: 'horizontal',
-  autoplay: {delay: 0},
-  loop: true,
-  slidesPerView: 5,
-  allowTouchMove: false,
-  freeMode: true,
+// const swiper3 = new Swiper('.swiper2', {
+//   spaceBetween: 0,
+//   speed:9000,
+// 	direction: 'horizontal',
+//   autoplay: {delay: 0},
+//   loop: true,
+//   slidesPerView: 5,
+//   allowTouchMove: false,
+//   freeMode: true,
 
     
-});
+// });
   const swiper = new Swiper('.swiper', {
 spaceBetween: 0,
 speed:10000,
@@ -124,6 +124,28 @@ breakpoints: {
 
     if ($('#page').hasClass('pagework')) {
       
+            setTimeout(() => {
+      Fancybox.bind("[data-fancybox]", {
+        Hash: false,
+        
+          Carousel: {
+    Thumbs: false,
+    Navigation: false,
+        Toolbar: {
+      display: {
+        left: [],
+        middle: [],
+        right: [],
+        boolean: false,
+      },
+    }
+
+  },
+  
+        // Your custom options
+        
+      });
+}, 10);
       imageZoom();
 
       if ($('#page').hasClass('page1')) {
